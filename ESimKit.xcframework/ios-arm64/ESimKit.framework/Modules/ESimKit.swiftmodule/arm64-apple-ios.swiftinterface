@@ -1,0 +1,160 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ESimKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import CryptoSwift
+import DateToolsSwift
+import DeveloperToolsSupport
+import Foundation
+import IBAnimatable
+import KeychainSwift
+import Kingfisher
+import NVActivityIndicatorView
+import PhoneNumberKit
+import RNCryptor
+import RxCocoa
+import RxSwift
+import SAConfettiView
+import SPIndicator
+import StoreKit
+import Swift
+import SwiftUI
+import SwiftWebVC
+import SwiftyStoreKit
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ESimKitHeaderNavBarConfig : Swift.Codable {
+  public init(bgColor: ESimKit.ESimKitGradientColor? = nil, closeImage: ESimKit.ESimKitPNGImage? = nil, titleIconEnabled: Swift.Bool? = nil, titleIcon: ESimKit.ESimKitPNGImage? = nil, refreshIcon: ESimKit.ESimKitPNGImage? = nil, refreshActivityColor: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ObjectiveC.NSObject {
+  public class var nameOfClass: Swift.String {
+    get
+  }
+  public var nameOfClass: Swift.String {
+    get
+  }
+}
+public struct ESimKitConfiguration : Swift.Codable {
+  public init(pagesBgColor: ESimKit.ESimKitColor? = nil, headerNavBarConfig: ESimKit.ESimKitHeaderNavBarConfig? = nil, searchBarConfig: ESimKit.ESimKitSearchBarConfig? = nil, headerInfoAreaConfig: ESimKit.ESimKitHeaderInfoAreaConfig? = nil, tableViewConfig: ESimKit.ESimKitTableViewConfig? = nil, sentences: ESimKit.ESimKitSentences? = nil, detailPageConfig: ESimKit.ESimKitDetailPageConfig? = nil, myEsimsPageConfig: ESimKit.ESimKitMyEsimsPageConfig? = nil, activateEsimPageConfig: ESimKit.ESimKitActivateEsimPageConfig? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UIFont {
+  public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+  public static let loadAllFonts: ()
+}
+public struct ESimKitMyEsimsPageConfig : Swift.Codable {
+  public init(navigationBackImage: ESimKit.ESimKitPNGImage? = nil, cellCountryNameFont: ESimKit.ESimKitFont? = nil, cellCountryNameFontColor: ESimKit.ESimKitColor? = nil, cellTitleFont: ESimKit.ESimKitFont? = nil, cellTitleFontColor: ESimKit.ESimKitColor? = nil, cellDescFont: ESimKit.ESimKitFont? = nil, cellDescFontColor: ESimKit.ESimKitColor? = nil, iconsBgColor: ESimKit.ESimKitColor? = nil, mainButtonBgColorEnabled: ESimKit.ESimKitGradientColor? = nil, mainButtonBgColorDisabled: ESimKit.ESimKitGradientColor? = nil, mainButtonBorderColorEnabled: ESimKit.ESimKitColor? = nil, mainButtonBorderColorDisabled: ESimKit.ESimKitColor? = nil, mainButtonFont: ESimKit.ESimKitFont? = nil, mainButtonFontColorEnabled: ESimKit.ESimKitColor? = nil, mainButtonFontColorDisabled: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+final public class ESimKitFont : Swift.Codable {
+  public init(name: Swift.String, size: CoreFoundation.CGFloat)
+  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public struct ESimKitPNGImage : Swift.Codable {
+  public let photo: Foundation.Data?
+  public init(photo: UIKit.UIImage?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitHeaderInfoAreaConfig : Swift.Codable {
+  public init(isEnabled: Swift.Bool? = nil, bGColor: ESimKit.ESimKitColor? = nil, iconsBGColor: ESimKit.ESimKitColor? = nil, borderColor: ESimKit.ESimKitColor? = nil, paginationSelectedColor: ESimKit.ESimKitColor? = nil, paginationUnselectedColor: ESimKit.ESimKitColor? = nil, benefit1: ESimKit.ESimKitBenefit? = nil, benefit2: ESimKit.ESimKitBenefit? = nil, benefit3: ESimKit.ESimKitBenefit? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitDetailPageConfig : Swift.Codable {
+  public init(titleFont: ESimKit.ESimKitFont? = nil, titleFontColor: ESimKit.ESimKitColor? = nil, navigationBackImage: ESimKit.ESimKitPNGImage? = nil, featuresAreaBgColor: ESimKit.ESimKitColor? = nil, featuresAreaImageBgColor: ESimKit.ESimKitColor? = nil, featuresAreaTitleFont: ESimKit.ESimKitFont? = nil, featuresAreaTitleFontColor: ESimKit.ESimKitColor? = nil, features5GImage: ESimKit.ESimKitPNGImage? = nil, featuresLTEImage: ESimKit.ESimKitPNGImage? = nil, featuresHotspotImage: ESimKit.ESimKitPNGImage? = nil, featuresInstantActivationImage: ESimKit.ESimKitPNGImage? = nil, labelAvailableInCountriesFont: ESimKit.ESimKitFont? = nil, labelAvailableInCountriesFontColor: ESimKit.ESimKitColor? = nil, availableCountriesBgColor: ESimKit.ESimKitColor? = nil, availableCountriesPlaceHolderColor: ESimKit.ESimKitColor? = nil, availableCountriesBorderColor: ESimKit.ESimKitColor? = nil, availableCountriesLabelFont: ESimKit.ESimKitFont? = nil, availableCountriesLabelColor: ESimKit.ESimKitColor? = nil, pricesCellBgColor: ESimKit.ESimKitColor? = nil, pricesCellBorderColor: ESimKit.ESimKitColor? = nil, pricesCellImage1: ESimKit.ESimKitPNGImage? = nil, pricesCellImage2: ESimKit.ESimKitPNGImage? = nil, pricesCellImage3: ESimKit.ESimKitPNGImage? = nil, pricesCellImage4: ESimKit.ESimKitPNGImage? = nil, pricesCellImage5: ESimKit.ESimKitPNGImage? = nil, pricesCellTitleFont: ESimKit.ESimKitFont? = nil, pricesCellTitleFontColor: ESimKit.ESimKitColor? = nil, pricesCellDescFont: ESimKit.ESimKitFont? = nil, pricesCellDescFontColor: ESimKit.ESimKitColor? = nil, pricesCellDescBorderColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonBgColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonBorderColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonFont: ESimKit.ESimKitFont? = nil, pricesPriceButtonFontColor: ESimKit.ESimKitColor? = nil, bottomTextsFont: ESimKit.ESimKitFont? = nil, bottomTextsColor: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitGradientColor : Swift.Codable {
+  public init(startColor: ESimKit.ESimKitColor, endColor: ESimKit.ESimKitColor, direction: ESimKit.ESimKitGradientColorDirection)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ESimKitGradientColorDirection : Swift.String, Swift.Codable {
+  case leftToRight
+  case rightToLeft
+  case topToBottom
+  case bottomToTop
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIImage {
+  convenience public init?(color: UIKit.UIColor, size: CoreFoundation.CGSize = CGSize(width: 1, height: 1))
+}
+public struct ESimKitTableViewConfig : Swift.Codable {
+  public init(headerBgColor: ESimKit.ESimKitColor? = nil, headerTitleFont: ESimKit.ESimKitFont? = nil, headerTitleColor: ESimKit.ESimKitColor? = nil, cellBgColor: ESimKit.ESimKitColor? = nil, cellBorderColor: ESimKit.ESimKitColor? = nil, cellRegionsBgColorInside: ESimKit.ESimKitColor? = nil, cellRegionsBorderColorInside: ESimKit.ESimKitColor? = nil, cellArrowBgColor: ESimKit.ESimKitColor? = nil, titleFont: ESimKit.ESimKitFont? = nil, titleColor: ESimKit.ESimKitColor? = nil, descFont: ESimKit.ESimKitFont? = nil, descColor: ESimKit.ESimKitColor? = nil, image5G: ESimKit.ESimKitPNGImage? = nil, imageLTE: ESimKit.ESimKitPNGImage? = nil, imageHotspot: ESimKit.ESimKitPNGImage? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitSearchBarConfig : Swift.Codable {
+  public init(tintColor: ESimKit.ESimKitColor? = nil, font: ESimKit.ESimKitFont? = nil, placeHolderText: Swift.String? = nil, textColor: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Theme {
+  case info
+  case success
+  case warning
+  case error
+  public static func == (a: ESimKit.Theme, b: ESimKit.Theme) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+#warning("localizable ları temizle")
+public struct ESimKitActivateEsimPageConfig : Swift.Codable {
+  public init(navigationBackImage: ESimKit.ESimKitPNGImage? = nil, navBarSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarUnSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarTitlesFont: ESimKit.ESimKitFont? = nil, navBarTitleSelectedFontColor: ESimKit.ESimKitColor? = nil, navBarTitleUnSelectedFontColor: ESimKit.ESimKitColor? = nil, qrIcon: ESimKit.ESimKitPNGImage? = nil, tipIcon: ESimKit.ESimKitPNGImage? = nil, manuelIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIconsBgColor: ESimKit.ESimKitColor? = nil, cellsTitleFont: ESimKit.ESimKitFont? = nil, cellsTitleFontColor: ESimKit.ESimKitColor? = nil, cellsDescFont: ESimKit.ESimKitFont? = nil, cellsDescFontColor: ESimKit.ESimKitColor? = nil, cellsActivationCodeFont: ESimKit.ESimKitFont? = nil, cellsActivationCodeFontColor: ESimKit.ESimKitColor? = nil, sendButtonBgColor: ESimKit.ESimKitColor? = nil, sendButtonBorderColor: ESimKit.ESimKitColor? = nil, sendButtonFont: ESimKit.ESimKitFont? = nil, sendButtonFontColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBgColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBorderColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonFont: ESimKit.ESimKitFont? = nil, clickToCopyButtonFontColor: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitSentences : Swift.Codable {
+  public init(mainPageTitle: ESimKit.ESimKitSentence? = nil, whereAreYouTraveling: ESimKit.ESimKitSentence? = nil, yourPackagesTitle: ESimKit.ESimKitSentence? = nil, activateESIMTitle: ESimKit.ESimKitSentence? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ESimKitBenefit : Swift.Codable {
+  public init(titleText: Swift.String? = nil, titleFont: ESimKit.ESimKitFont? = nil, titleColor: ESimKit.ESimKitColor? = nil, icon: ESimKit.ESimKitPNGImage? = nil, descText: Swift.String? = nil, descFont: ESimKit.ESimKitFont? = nil, descColor: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+public struct ESimKitSentence : Swift.Codable {
+  public init(text: Swift.String? = nil, font: ESimKit.ESimKitFont? = nil, color: ESimKit.ESimKitColor? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+#warning("king fisher kaldır tüm ülke bayrakları içeri al ")
+public struct ESimKitColor : Swift.Codable {
+  public init(colorHex: Swift.String?, alpha: Swift.Double? = 1.0)
+  public init(fromUIColor: UIKit.UIColor, alpha: Swift.Double? = 1.0)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ESimKitManager : ObjectiveC.NSObject {
+  public static let shared: ESimKit.ESimKitManager
+  public var configuration: ESimKit.ESimKitConfiguration
+  public func startSDK(apiKey: Swift.String, inAppIdForCurrency: Swift.String, domain: Swift.String, privacyUrl: Foundation.URL, tosURL: Foundation.URL, configuration: ESimKit.ESimKitConfiguration? = nil)
+  public func presentESimVC(on: UIKit.UIViewController)
+  @objc deinit
+}
+extension ESimKit.ESimKitGradientColorDirection : Swift.Equatable {}
+extension ESimKit.ESimKitGradientColorDirection : Swift.Hashable {}
+extension ESimKit.ESimKitGradientColorDirection : Swift.RawRepresentable {}
+extension ESimKit.Theme : Swift.Equatable {}
+extension ESimKit.Theme : Swift.Hashable {}
