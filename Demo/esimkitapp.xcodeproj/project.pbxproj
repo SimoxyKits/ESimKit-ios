@@ -12,7 +12,6 @@
 		EA8FF69C2B3C46B300B09CEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FF69B2B3C46B300B09CEF /* SceneDelegate.swift */; };
 		EA8FF69E2B3C46B300B09CEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FF69D2B3C46B300B09CEF /* ViewController.swift */; };
 		EA8FF6A32B3C46B400B09CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8FF6A22B3C46B400B09CEF /* Assets.xcassets */; };
-		EA911FF82B4590B900C350A7 /* ESimKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA911FF72B4590B900C350A7 /* ESimKit.xcframework */; };
 		EA911FFB2B45946100C350A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA911FFD2B45946100C350A7 /* Localizable.strings */; };
 		EA9120042B45989000C350A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9120052B45989000C350A7 /* LaunchScreen.storyboard */; };
 		EA9120062B45989800C350A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9120072B45989800C350A7 /* Main.storyboard */; };
@@ -21,6 +20,8 @@
 		EA91202E2B459FDE00C350A7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9120292B459FDE00C350A7 /* Montserrat-Bold.ttf */; };
 		EA91202F2B459FDE00C350A7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA91202A2B459FDE00C350A7 /* Montserrat-SemiBold.ttf */; };
 		EA9120302B459FDE00C350A7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA91202B2B459FDE00C350A7 /* Montserrat-Regular.ttf */; };
+		EA9120332B45A7EB00C350A7 /* ESimKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9120312B45A7D100C350A7 /* ESimKit.xcframework */; };
+		EA9120342B45A7EB00C350A7 /* ESimKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA9120312B45A7D100C350A7 /* ESimKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				EA9120342B45A7EB00C350A7 /* ESimKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +48,6 @@
 		EA8FF69D2B3C46B300B09CEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA8FF6A22B3C46B400B09CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA8FF6A72B3C46B400B09CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA911FF72B4590B900C350A7 /* ESimKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ESimKit.xcframework; path = ../ESimKit.xcframework; sourceTree = "<group>"; };
 		EA911FFC2B45946100C350A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EA9120002B4594B000C350A7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EA9120012B4594B600C350A7 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		EA9120292B459FDE00C350A7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		EA91202A2B459FDE00C350A7 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		EA91202B2B459FDE00C350A7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EA9120312B45A7D100C350A7 /* ESimKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ESimKit.xcframework; path = ../ESimKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA911FF82B4590B900C350A7 /* ESimKit.xcframework in Frameworks */,
+				EA9120332B45A7EB00C350A7 /* ESimKit.xcframework in Frameworks */,
 				0C8387918527E8A3BC15D0CA /* Pods_esimkitapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +164,7 @@
 		EA94A68C2B3CA45F0049C06E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA911FF72B4590B900C350A7 /* ESimKit.xcframework */,
+				EA9120312B45A7D100C350A7 /* ESimKit.xcframework */,
 				1D5B47B59046037586F961A9 /* Pods_esimkitapp.framework */,
 			);
 			name = Frameworks;
