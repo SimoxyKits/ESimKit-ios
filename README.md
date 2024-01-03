@@ -4,36 +4,36 @@
 
 **Requirements for Submission to the Simoxy Team:**
 
- 1. Apple ID and Bundle ID of your application.
- 2. Your application's Production Push Certificate (.pem file) along with its password, if it has one.
- 3. Your application's App-Specific Shared Secret, which can be found on your app's App Store Connect information page.
- 4. Configure your application to use the App Store Server Notifications Production URL provided by the Simoxy Team. If you
+1. Apple ID and Bundle ID of your application.
+2. Your application's Production Push Certificate (.pem file) along with its password, if it has one.
+3. Your application's App-Specific Shared Secret, which can be found on your app's App Store Connect information page.
+4. Configure your application to use the App Store Server Notifications Production URL provided by the Simoxy Team. If you
     already have an existing URL, please use this PHP repository to forward notifications to our servers.
 
 **What You Will Receive from the Simoxy Team:**
- 1. A dashboard link to view your application's statistics and earnings.
- 2. An API Key for use with this SDK.
- 3. Information on your domain's nameserver settings.
+1. A dashboard link to view your application's statistics and earnings.
+2. An API Key for use with this SDK.
+3. Information on your domain's nameserver settings.
  
 
 ## Instructions for SDK Installation:
 
- 1. Download the ESimKit.xcframework from this repository.
- 2. Drag and drop the framework into your Application's Frameworks folder.
+1. Download the ESimKit.xcframework from this repository.
+2. Drag and drop the framework into your Application's Frameworks folder.
 Don't forget to check "**Copy items if needed**" and be sure to check your app as the target.
 
 ![0](https://github.com/SimoxyKits/ESimKit/assets/3602109/8e1e33a7-a32f-408e-99c6-246b1e81594f)
 
- 3. Go to your target's "General" tab and scroll down to "Frameworks, Libraries, and Embedded Content" area.
+3. Go to your target's "General" tab and scroll down to "Frameworks, Libraries, and Embedded Content" area.
 Be sure to choose "**Embed & Sign**" for **ESimKit.xcframework**
 
 ![Screenshot 2024-01-03 at 17 34 31](https://github.com/SimoxyKits/ESimKit/assets/3602109/9f8d6558-66bc-4734-922c-63b8139ec966)
 
- 4. Make sure that "**Embed Frameworks**" configuration must be placed above "**Run Script**" configuration in your application target -> Build Phases.
+4. Make sure that "**Embed Frameworks**" configuration must be placed above "**Run Script**" configuration in your application target -> Build Phases.
 
  ![Screenshot 2024-01-03 at 17 46 58](https://github.com/SimoxyKits/ESimKit/assets/3602109/67d80f2c-f02d-4e8c-974e-223650468a16)
 
- 5. Add those to your Podfile (change *YourAppTargetName*):
+5. Add those to your Podfile (change *YourAppTargetName*):
 ```
 platform :ios, '13.0'
 
