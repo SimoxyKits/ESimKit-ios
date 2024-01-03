@@ -21,11 +21,18 @@
  1. Download the ESimKit.xcframework from this repository.
  2. Drag and drop the framework into your Application's Frameworks folder.
 Don't forget to check "**Copy items if needed**" and be sure to check your app as the target.
-![](aaa)
+
+![0](https://github.com/SimoxyKits/ESimKit/assets/3602109/8e1e33a7-a32f-408e-99c6-246b1e81594f)
+
  3. Go to your target's "General" tab and scroll down to "Frameworks, Libraries, and Embedded Content" area.
 Be sure to choose "**Embed & Sign**" for **ESimKit.xcframework**
-![](aaa)
+
+![Screenshot 2024-01-03 at 17 34 31](https://github.com/SimoxyKits/ESimKit/assets/3602109/9f8d6558-66bc-4734-922c-63b8139ec966)
+
  4. Make sure that "**Embed Frameworks**" configuration must be placed above "**Run Script**" configuration in your application target -> Build Phases.
+
+ ![Screenshot 2024-01-03 at 17 46 58](https://github.com/SimoxyKits/ESimKit/assets/3602109/67d80f2c-f02d-4e8c-974e-223650468a16)
+
  5. Add those to your Podfile (change *YourAppTargetName*):
 ```
 platform :ios, '13.0'
@@ -118,6 +125,9 @@ To access ESimKit's assets for customizing images and sample localized sentences
 	"esimkit_sentences_long_4" = "Are you planning to go abroad? Switch networks effortlessly. No physical SIMs - just tap and connect to the internet!";
 	"esimkit_sentences_slogans_1" = "Fast Mobile Data";
 	"esimkit_sentences_slogans_2" = "Instant Activation";
+
+![demoapp](https://github.com/SimoxyKits/ESimKit/assets/3602109/135e1a72-6ba5-43a2-a4a6-cc75f8fdcb53)
+
 
 
 
