@@ -66,6 +66,8 @@ public struct ESimKitPNGImage : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ESimKitHeaderInfoAreaConfig : Swift.Codable {
+  #warning("bunları unutmussun yerleştirmeyi")
+  #warning("tüm png leri editlet, myesims de kileri atladın")
   public init(isEnabled: Swift.Bool? = nil, bGColor: ESimKit.ESimKitColor? = nil, iconsBGColor: ESimKit.ESimKitColor? = nil, borderColor: ESimKit.ESimKitColor? = nil, paginationSelectedColor: ESimKit.ESimKitColor? = nil, paginationUnselectedColor: ESimKit.ESimKitColor? = nil, benefit1: ESimKit.ESimKitBenefit? = nil, benefit2: ESimKit.ESimKitBenefit? = nil, benefit3: ESimKit.ESimKitBenefit? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -115,7 +117,6 @@ public enum Theme {
     get
   }
 }
-#warning("localizable ları temizle")
 public struct ESimKitActivateEsimPageConfig : Swift.Codable {
   public init(navigationBackImage: ESimKit.ESimKitPNGImage? = nil, navBarSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarUnSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarTitlesFont: ESimKit.ESimKitFont? = nil, navBarTitleSelectedFontColor: ESimKit.ESimKitColor? = nil, navBarTitleUnSelectedFontColor: ESimKit.ESimKitColor? = nil, qrIcon: ESimKit.ESimKitPNGImage? = nil, tipIcon: ESimKit.ESimKitPNGImage? = nil, manuelIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIconsBgColor: ESimKit.ESimKitColor? = nil, cellsTitleFont: ESimKit.ESimKitFont? = nil, cellsTitleFontColor: ESimKit.ESimKitColor? = nil, cellsDescFont: ESimKit.ESimKitFont? = nil, cellsDescFontColor: ESimKit.ESimKitColor? = nil, cellsActivationCodeFont: ESimKit.ESimKitFont? = nil, cellsActivationCodeFontColor: ESimKit.ESimKitColor? = nil, sendButtonBgColor: ESimKit.ESimKitColor? = nil, sendButtonBorderColor: ESimKit.ESimKitColor? = nil, sendButtonFont: ESimKit.ESimKitFont? = nil, sendButtonFontColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBgColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBorderColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonFont: ESimKit.ESimKitFont? = nil, clickToCopyButtonFontColor: ESimKit.ESimKitColor? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -139,13 +140,13 @@ public struct ESimKitSentence : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-#warning("king fisher kaldır tüm ülke bayrakları içeri al ")
 public struct ESimKitColor : Swift.Codable {
   public init(colorHex: Swift.String?, alpha: Swift.Double? = 1.0)
   public init(fromUIColor: UIKit.UIColor, alpha: Swift.Double? = 1.0)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+#warning("ESimKitManager.shared.domain! bu patlattı kaldır")
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ESimKitManager : ObjectiveC.NSObject {
   public static let shared: ESimKit.ESimKitManager
   public var configuration: ESimKit.ESimKitConfiguration
