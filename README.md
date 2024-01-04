@@ -29,7 +29,7 @@ Be sure to choose "**Embed & Sign**" for **ESimKit.xcframework**
 
 ![Screenshot 2024-01-03 at 17 34 31](https://github.com/SimoxyKits/ESimKit/assets/3602109/9f8d6558-66bc-4734-922c-63b8139ec966)
 
-4. Make sure that "**Embed Frameworks**" configuration must be placed above "**Run Script**" configuration in your application target -> Build Phases.
+4. Make sure that "**Embed Frameworks**" configuration must be placed above "**Run Script**" configuration (if exists) in your application target -> Build Phases.
 
  ![Screenshot 2024-01-03 at 17 46 58](https://github.com/SimoxyKits/ESimKit/assets/3602109/67d80f2c-f02d-4e8c-974e-223650468a16)
 
