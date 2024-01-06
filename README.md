@@ -2,7 +2,7 @@
 The Android SDK is coming soon! Remember to star this repository to receive updates.
 
 ## PhoneNumbersKit (VoIP + SMS) SDK Availability:
-We're soon releasing our PhoneNumbersKit Framework. This SDK will enable your users to purchase real phone numbers from over 40 countries, allowing them to make/receive calls and send/receive SMS messages.
+We're soon releasing our PhoneNumbersKit Framework. This SDK will enable your users to purchase real phone numbers from over 40 countries, allowing them to make/receive calls and send/receive SMS messages. See details here: https://simoxy.com/#nextsdk
 
 ## Simoxy eSIM iOS Framework Integration Guide
 
