@@ -39,7 +39,9 @@ Be sure to choose "**Embed & Sign**" for **ESimKit.xcframework**
 
  ![Screenshot 2024-01-03 at 17 46 58](https://github.com/SimoxyKits/ESimKit/assets/3602109/67d80f2c-f02d-4e8c-974e-223650468a16)
 
-5. Add those to your Podfile (change *YourAppTargetName*):
+5. Make sure that you have enabled "**In-App Purchase**" capability to your Application target.
+
+6. Add those to your Podfile (change *YourAppTargetName*):
 ```
 platform :ios, '13.0'
 
@@ -96,9 +98,9 @@ post_install do |installer|
     end
 end
 ```
-6. Run ```pod install``` command to update your Pods.
-7. Add ```import ESimKit``` to your AppDelegate file.
-8. In AppDelegate file, in your ```func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool ``` method, start the SDK, like:
+7. Run ```pod install``` command to update your Pods.
+8. Add ```import ESimKit``` to your AppDelegate file.
+9. In AppDelegate file, in your ```func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool ``` method, start the SDK, like:
 ```
 ESimKitManager.shared.startSDK(
     apiKey: "yourApiKey",
@@ -108,10 +110,10 @@ ESimKitManager.shared.startSDK(
     tosURL: URL(string: "https://backend.simoxy.com/docs/privacy")!
 )
 ```
-9. Whenever you want to present ESimKit main page, please call 
+10. Whenever you want to present ESimKit main page, please call 
 	```ESimKitManager.shared.presentESimVC(on: self)```
 	Don't forget to import the module at beginning of your controller file: ```import ESimKit```
-10. Build & Run
+11. Build & Run
 
 
 
