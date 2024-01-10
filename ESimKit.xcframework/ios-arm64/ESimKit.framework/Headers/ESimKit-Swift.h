@@ -277,7 +277,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -304,6 +307,41 @@ SWIFT_CLASS("_TtC7ESimKit14ESimKitManager")
 @interface ESimKitManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+@class NSCoder;
+
+SWIFT_CLASS("_TtC7ESimKit23SPIndicatorIconDoneView")
+@interface SPIndicatorIconDoneView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7ESimKit24SPIndicatorIconErrorView")
+@interface SPIndicatorIconErrorView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// SPIndicator: Main view. Can be customisable if need.
+/// For change duration, check method <code>present</code> and pass duration and other specific property if need customise.
+/// Here available set window on which shoud be present.
+/// If you have some windows, you shoud configure it. Check property <code>presentWindow</code>.
+/// For disable dismiss by drag, check property <code>.dismissByDrag</code>.
+/// Recomended call <code>SPIndicator</code> and choose style func.
+SWIFT_CLASS("_TtC7ESimKit15SPIndicatorView") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface SPIndicatorView : UIView
+@property (nonatomic) NSTimeInterval duration;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)dismiss;
+- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 

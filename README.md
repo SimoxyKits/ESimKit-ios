@@ -48,7 +48,6 @@ platform :ios, '13.0'
 target 'YourAppTargetName' do
   use_frameworks!
   
-  pod 'SPIndicator'
   pod 'RNCryptor'
   pod 'Alamofire'
   pod 'RxCocoa'
@@ -110,8 +109,7 @@ ESimKitManager.shared.startSDK(
     tosURL: URL(string: "https://backend.simoxy.com/docs/privacy")!
 )
 ```
-10. Whenever you want to present ESimKit main page, please call 
-	```ESimKitManager.shared.presentESimVC(on: self)```
+10. Whenever you want to present ESimKit main page, please call  ```ESimKitManager.shared.presentESimVC(on: self)``` , or if you want to embed ESimKit main VC onto your VC, please call ```ESimKitManager.shared.embedESimVC(on: self)```
 	Don't forget to import the module at beginning of your controller file: ```import ESimKit```
 11. Build & Run
 
@@ -163,7 +161,8 @@ You can customize all screens, sentences, colors and icons. Please see detailed 
     	        //titleIconEnabled: true,
     	        //titleIcon:  ESimKitPNGImage(photo: UIImage(named: "esim_internet")),
     	        //refreshIcon: ESimKitPNGImage(photo: UIImage(named: "icon_refresh_new")),
-    	        //refreshActivityColor: ESimKitColor(colorHex: "FFFFFF")
+    	        //refreshActivityColor: ESimKitColor(colorHex: "FFFFFF"),
+                //cornerRadius: 0.0
     	    ),
     	    searchBarConfig: ESimKitSearchBarConfig(
     	        //tintColor: ESimKitColor(colorHex: "FFFFFF"),

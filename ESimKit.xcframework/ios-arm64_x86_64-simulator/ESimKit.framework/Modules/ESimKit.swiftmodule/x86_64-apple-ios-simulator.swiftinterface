@@ -16,7 +16,6 @@ import RNCryptor
 import RxCocoa
 import RxSwift
 import SAConfettiView
-import SPIndicator
 import StoreKit
 import Swift
 import SwiftUI
@@ -27,7 +26,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct ESimKitHeaderNavBarConfig : Swift.Codable {
-  public init(bgColor: ESimKit.ESimKitGradientColor? = nil, closeImage: ESimKit.ESimKitPNGImage? = nil, titleIconEnabled: Swift.Bool? = nil, titleIcon: ESimKit.ESimKitPNGImage? = nil, refreshIcon: ESimKit.ESimKitPNGImage? = nil, refreshActivityColor: ESimKit.ESimKitColor? = nil)
+  public init(bgColor: ESimKit.ESimKitGradientColor? = nil, closeImage: ESimKit.ESimKitPNGImage? = nil, titleIconEnabled: Swift.Bool? = nil, titleIcon: ESimKit.ESimKitPNGImage? = nil, refreshIcon: ESimKit.ESimKitPNGImage? = nil, refreshActivityColor: ESimKit.ESimKitColor? = nil, cornerRadius: CoreFoundation.CGFloat? = 0.0)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -48,6 +47,17 @@ extension UIKit.UIFont {
   public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
   public static let loadAllFonts: ()
 }
+public enum SPIndicatorHaptic {
+  case success
+  case warning
+  case error
+  case none
+  public static func == (a: ESimKit.SPIndicatorHaptic, b: ESimKit.SPIndicatorHaptic) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct ESimKitMyEsimsPageConfig : Swift.Codable {
   public init(navigationBackImage: ESimKit.ESimKitPNGImage? = nil, cellCountryNameFont: ESimKit.ESimKitFont? = nil, cellCountryNameFontColor: ESimKit.ESimKitColor? = nil, cellTitleFont: ESimKit.ESimKitFont? = nil, cellTitleFontColor: ESimKit.ESimKitColor? = nil, cellDescFont: ESimKit.ESimKitFont? = nil, cellDescFontColor: ESimKit.ESimKitColor? = nil, iconsBgColor: ESimKit.ESimKitColor? = nil, mainButtonBgColorEnabled: ESimKit.ESimKitGradientColor? = nil, mainButtonBgColorDisabled: ESimKit.ESimKitGradientColor? = nil, mainButtonBorderColorEnabled: ESimKit.ESimKitColor? = nil, mainButtonBorderColorDisabled: ESimKit.ESimKitColor? = nil, mainButtonFont: ESimKit.ESimKitFont? = nil, mainButtonFontColorEnabled: ESimKit.ESimKitColor? = nil, mainButtonFontColorDisabled: ESimKit.ESimKitColor? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -65,12 +75,27 @@ public struct ESimKitPNGImage : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SPIndicatorIconErrorView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
+  @_Concurrency.MainActor(unsafe) public func animate()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol SPIndicatorIconAnimatable {
+  func animate()
+}
 public struct ESimKitHeaderInfoAreaConfig : Swift.Codable {
   #warning("bunları unutmussun yerleştirmeyi")
   #warning("tüm png leri editlet, myesims de kileri atladın")
   public init(isEnabled: Swift.Bool? = nil, bGColor: ESimKit.ESimKitColor? = nil, iconsBGColor: ESimKit.ESimKitColor? = nil, borderColor: ESimKit.ESimKitColor? = nil, paginationSelectedColor: ESimKit.ESimKitColor? = nil, paginationUnselectedColor: ESimKit.ESimKitColor? = nil, benefit1: ESimKit.ESimKitBenefit? = nil, benefit2: ESimKit.ESimKitBenefit? = nil, benefit3: ESimKit.ESimKitBenefit? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+open class SPIndicatorLayout {
+  open var iconSize: CoreFoundation.CGSize
+  open var margins: UIKit.UIEdgeInsets
+  public init(iconSize: CoreFoundation.CGSize, margins: UIKit.UIEdgeInsets)
+  @objc deinit
 }
 public struct ESimKitDetailPageConfig : Swift.Codable {
   public init(titleFont: ESimKit.ESimKitFont? = nil, titleFontColor: ESimKit.ESimKitColor? = nil, navigationBackImage: ESimKit.ESimKitPNGImage? = nil, featuresAreaBgColor: ESimKit.ESimKitColor? = nil, featuresAreaImageBgColor: ESimKit.ESimKitColor? = nil, featuresAreaTitleFont: ESimKit.ESimKitFont? = nil, featuresAreaTitleFontColor: ESimKit.ESimKitColor? = nil, features5GImage: ESimKit.ESimKitPNGImage? = nil, featuresLTEImage: ESimKit.ESimKitPNGImage? = nil, featuresHotspotImage: ESimKit.ESimKitPNGImage? = nil, featuresInstantActivationImage: ESimKit.ESimKitPNGImage? = nil, labelAvailableInCountriesFont: ESimKit.ESimKitFont? = nil, labelAvailableInCountriesFontColor: ESimKit.ESimKitColor? = nil, availableCountriesBgColor: ESimKit.ESimKitColor? = nil, availableCountriesPlaceHolderColor: ESimKit.ESimKitColor? = nil, availableCountriesBorderColor: ESimKit.ESimKitColor? = nil, availableCountriesLabelFont: ESimKit.ESimKitFont? = nil, availableCountriesLabelColor: ESimKit.ESimKitColor? = nil, pricesCellBgColor: ESimKit.ESimKitColor? = nil, pricesCellBorderColor: ESimKit.ESimKitColor? = nil, pricesCellImage1: ESimKit.ESimKitPNGImage? = nil, pricesCellImage2: ESimKit.ESimKitPNGImage? = nil, pricesCellImage3: ESimKit.ESimKitPNGImage? = nil, pricesCellImage4: ESimKit.ESimKitPNGImage? = nil, pricesCellImage5: ESimKit.ESimKitPNGImage? = nil, pricesCellTitleFont: ESimKit.ESimKitFont? = nil, pricesCellTitleFontColor: ESimKit.ESimKitColor? = nil, pricesCellDescFont: ESimKit.ESimKitFont? = nil, pricesCellDescFontColor: ESimKit.ESimKitColor? = nil, pricesCellDescBorderColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonBgColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonBorderColor: ESimKit.ESimKitColor? = nil, pricesPriceButtonFont: ESimKit.ESimKitFont? = nil, pricesPriceButtonFontColor: ESimKit.ESimKitColor? = nil, bottomTextsFont: ESimKit.ESimKitFont? = nil, bottomTextsColor: ESimKit.ESimKitColor? = nil)
@@ -101,10 +126,76 @@ public struct ESimKitTableViewConfig : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum SPIndicatorPresentSide {
+  case top
+  case center
+  case bottom
+  public static func == (a: ESimKit.SPIndicatorPresentSide, b: ESimKit.SPIndicatorPresentSide) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SPIndicatorIconPreset {
+  case done
+  case error
+  case spin(_: UIKit.UIActivityIndicatorView.Style)
+  case custom(_: UIKit.UIImage)
+}
+extension ESimKit.SPIndicatorIconPreset {
+  public func createView() -> UIKit.UIView
+  public func getHaptic() -> ESimKit.SPIndicatorHaptic
+}
+extension ESimKit.SPIndicatorLayout {
+  convenience public init()
+  public static func message() -> ESimKit.SPIndicatorLayout
+  convenience public init(for preset: ESimKit.SPIndicatorIconPreset)
+}
+@available(iOSApplicationExtension, unavailable)
+public enum SPIndicator {
+  public static func present(title: Swift.String, message: Swift.String? = nil, preset: ESimKit.SPIndicatorIconPreset, haptic: ESimKit.SPIndicatorHaptic, from presentSide: ESimKit.SPIndicatorPresentSide = .top, completion: (() -> Swift.Void)? = nil)
+  public static func present(title: Swift.String, message: Swift.String? = nil, preset: ESimKit.SPIndicatorIconPreset, from presentSide: ESimKit.SPIndicatorPresentSide = .top, completion: (() -> Swift.Void)? = nil)
+  public static func present(title: Swift.String, message: Swift.String? = nil, haptic: ESimKit.SPIndicatorHaptic, from presentSide: ESimKit.SPIndicatorPresentSide = .top, completion: (() -> Swift.Void)? = nil)
+}
+@available(iOS 13.0, *)
+@available(iOSApplicationExtension, unavailable)
+extension SwiftUI.View {
+  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, indicatorView: ESimKit.SPIndicatorView, duration: Foundation.TimeInterval = 2.0, haptic: ESimKit.SPIndicatorHaptic = .none) -> some SwiftUI.View
+  
+  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, title: Swift.String = "", message: Swift.String? = nil, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, layout: ESimKit.SPIndicatorLayout? = nil, completion: (() -> Swift.Void)? = nil) -> some SwiftUI.View
+  
+  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, title: Swift.String, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, completion: (() -> Swift.Void)? = nil) -> some SwiftUI.View
+  
+}
 public struct ESimKitSearchBarConfig : Swift.Codable {
   public init(tintColor: ESimKit.ESimKitColor? = nil, font: ESimKit.ESimKitFont? = nil, placeHolderText: Swift.String? = nil, textColor: ESimKit.ESimKitColor? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@objc @available(iOSApplicationExtension, unavailable)
+@_Concurrency.MainActor(unsafe) open class SPIndicatorView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic open var duration: Swift.Double
+  @_Concurrency.MainActor(unsafe) open var presentSide: ESimKit.SPIndicatorPresentSide
+  @_Concurrency.MainActor(unsafe) open var dismissByDrag: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var completion: (() -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor(unsafe) open var subtitleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor(unsafe) open var iconView: UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) weak open var presentWindow: UIKit.UIWindow?
+  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, message: Swift.String? = nil, preset: ESimKit.SPIndicatorIconPreset)
+  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, message: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func present(haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func present(duration: Foundation.TimeInterval, haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) open func dismiss()
+  @_Concurrency.MainActor(unsafe) open var layout: ESimKit.SPIndicatorLayout
+  @_Concurrency.MainActor(unsafe) open var offset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @objc deinit
 }
 public enum Theme {
   case info
@@ -116,6 +207,12 @@ public enum Theme {
   public var hashValue: Swift.Int {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SPIndicatorIconDoneView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
+  @_Concurrency.MainActor(unsafe) public func animate()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 public struct ESimKitActivateEsimPageConfig : Swift.Codable {
   public init(navigationBackImage: ESimKit.ESimKitPNGImage? = nil, navBarSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarUnSelectedBgColor: ESimKit.ESimKitColor? = nil, navBarTitlesFont: ESimKit.ESimKitFont? = nil, navBarTitleSelectedFontColor: ESimKit.ESimKitColor? = nil, navBarTitleUnSelectedFontColor: ESimKit.ESimKitColor? = nil, qrIcon: ESimKit.ESimKitPNGImage? = nil, tipIcon: ESimKit.ESimKitPNGImage? = nil, manuelIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIcon: ESimKit.ESimKitPNGImage? = nil, cellsRightArrowIconsBgColor: ESimKit.ESimKitColor? = nil, cellsTitleFont: ESimKit.ESimKitFont? = nil, cellsTitleFontColor: ESimKit.ESimKitColor? = nil, cellsDescFont: ESimKit.ESimKitFont? = nil, cellsDescFontColor: ESimKit.ESimKitColor? = nil, cellsActivationCodeFont: ESimKit.ESimKitFont? = nil, cellsActivationCodeFontColor: ESimKit.ESimKitColor? = nil, sendButtonBgColor: ESimKit.ESimKitColor? = nil, sendButtonBorderColor: ESimKit.ESimKitColor? = nil, sendButtonFont: ESimKit.ESimKitFont? = nil, sendButtonFontColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBgColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonBorderColor: ESimKit.ESimKitColor? = nil, clickToCopyButtonFont: ESimKit.ESimKitFont? = nil, clickToCopyButtonFontColor: ESimKit.ESimKitColor? = nil)
@@ -152,10 +249,15 @@ public struct ESimKitColor : Swift.Codable {
   public var configuration: ESimKit.ESimKitConfiguration
   public func startSDK(apiKey: Swift.String, inAppIdForCurrency: Swift.String, domain: Swift.String, privacyUrl: Foundation.URL, tosURL: Foundation.URL, configuration: ESimKit.ESimKitConfiguration? = nil)
   public func presentESimVC(on: UIKit.UIViewController)
+  public func embedESimVC(on: UIKit.UIViewController)
   @objc deinit
 }
+extension ESimKit.SPIndicatorHaptic : Swift.Equatable {}
+extension ESimKit.SPIndicatorHaptic : Swift.Hashable {}
 extension ESimKit.ESimKitGradientColorDirection : Swift.Equatable {}
 extension ESimKit.ESimKitGradientColorDirection : Swift.Hashable {}
 extension ESimKit.ESimKitGradientColorDirection : Swift.RawRepresentable {}
+extension ESimKit.SPIndicatorPresentSide : Swift.Equatable {}
+extension ESimKit.SPIndicatorPresentSide : Swift.Hashable {}
 extension ESimKit.Theme : Swift.Equatable {}
 extension ESimKit.Theme : Swift.Hashable {}

@@ -3,7 +3,6 @@ platform :ios, '13.0'
 target 'esimkitapp' do
   use_frameworks!
   
-  pod 'SPIndicator'
   pod 'RNCryptor'
   pod 'Alamofire'
   pod 'RxCocoa'
