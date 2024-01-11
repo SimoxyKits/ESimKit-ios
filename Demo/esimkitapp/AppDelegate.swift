@@ -5,6 +5,7 @@ import ESimKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         ESimKitManager.shared.startSDK(
+            mainBundle: Bundle.main,
             apiKey: "yourApiKey",
             inAppIdForCurrency: "testsimoxy",
             domain: "https://backend.simoxy.com/",

@@ -61468,6 +61468,25 @@
           },
           {
             "kind": "Function",
+            "name": "getBundleParent",
+            "printedName": "getBundleParent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ESimKit12HeaderHelperC15getBundleParentSSyF",
+            "mangledName": "$s7ESimKit12HeaderHelperC15getBundleParentSSyF",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "randomString",
             "printedName": "randomString(length:)",
             "children": [
@@ -93879,6 +93898,547 @@
         "children": [
           {
             "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0aB7ManagerC7versionSSvp",
+            "mangledName": "$s7ESimKit0aB7ManagerC7versionSSvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7versionSSvg",
+                "mangledName": "$s7ESimKit0aB7ManagerC7versionSSvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7versionSSvs",
+                "mangledName": "$s7ESimKit0aB7ManagerC7versionSSvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7versionSSvM",
+                "mangledName": "$s7ESimKit0aB7ManagerC7versionSSvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostBundle",
+            "printedName": "hostBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvp",
+            "mangledName": "$s7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvg",
+                "mangledName": "$s7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvs",
+                "mangledName": "$s7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvM",
+                "mangledName": "$s7ESimKit0aB7ManagerC10hostBundleSo8NSBundleCSgvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostNavigationController",
+            "printedName": "hostNavigationController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvp",
+            "mangledName": "$s7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvg",
+                "mangledName": "$s7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvs",
+                "mangledName": "$s7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvM",
+                "mangledName": "$s7ESimKit0aB7ManagerC24hostNavigationControllerSo012UINavigationF0CSgvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preUDID",
+            "printedName": "preUDID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0aB7ManagerC7preUDIDSSSgvp",
+            "mangledName": "$s7ESimKit0aB7ManagerC7preUDIDSSSgvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7preUDIDSSSgvg",
+                "mangledName": "$s7ESimKit0aB7ManagerC7preUDIDSSSgvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7preUDIDSSSgvs",
+                "mangledName": "$s7ESimKit0aB7ManagerC7preUDIDSSSgvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC7preUDIDSSSgvM",
+                "mangledName": "$s7ESimKit0aB7ManagerC7preUDIDSSSgvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preUserSession",
+            "printedName": "preUserSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0aB7ManagerC14preUserSessionSSSgvp",
+            "mangledName": "$s7ESimKit0aB7ManagerC14preUserSessionSSSgvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC14preUserSessionSSSgvg",
+                "mangledName": "$s7ESimKit0aB7ManagerC14preUserSessionSSSgvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC14preUserSessionSSSgvs",
+                "mangledName": "$s7ESimKit0aB7ManagerC14preUserSessionSSSgvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0aB7ManagerC14preUserSessionSSSgvM",
+                "mangledName": "$s7ESimKit0aB7ManagerC14preUserSessionSSSgvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "apiKey",
             "printedName": "apiKey",
             "children": [
@@ -94676,12 +95236,18 @@
           {
             "kind": "Function",
             "name": "startSDK",
-            "printedName": "startSDK(apiKey:inAppIdForCurrency:domain:privacyUrl:tosURL:configuration:)",
+            "printedName": "startSDK(mainBundle:apiKey:inAppIdForCurrency:domain:privacyUrl:tosURL:udid:userSession:configuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
               },
               {
                 "kind": "TypeNominal",
@@ -94716,6 +95282,36 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "ESimKit.ESimKitConfiguration?",
                 "children": [
                   {
@@ -94730,8 +95326,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit0aB7ManagerC8startSDK6apiKey18inAppIdForCurrency6domain10privacyUrl6tosURL13configurationySS_S2S10Foundation0Q0VAmA0aB13ConfigurationVSgtF",
-            "mangledName": "$s7ESimKit0aB7ManagerC8startSDK6apiKey18inAppIdForCurrency6domain10privacyUrl6tosURL13configurationySS_S2S10Foundation0Q0VAmA0aB13ConfigurationVSgtF",
+            "usr": "s:7ESimKit0aB7ManagerC8startSDK10mainBundle6apiKey18inAppIdForCurrency6domain10privacyUrl6tosURL4udid11userSession13configurationySo8NSBundleC_S3S10Foundation0S0VARSSSgAsA0aB13ConfigurationVSgtF",
+            "mangledName": "$s7ESimKit0aB7ManagerC8startSDK10mainBundle6apiKey18inAppIdForCurrency6domain10privacyUrl6tosURL4udid11userSession13configurationySo8NSBundleC_S3S10Foundation0S0VARSSSgAsA0aB13ConfigurationVSgtF",
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
@@ -94769,7 +95365,7 @@
           {
             "kind": "Function",
             "name": "embedESimVC",
-            "printedName": "embedESimVC(on:)",
+            "printedName": "embedESimVC(on:navigationController:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -94781,11 +95377,26 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit0aB7ManagerC05embedA2VC2onySo16UIViewControllerC_tF",
-            "mangledName": "$s7ESimKit0aB7ManagerC05embedA2VC2onySo16UIViewControllerC_tF",
+            "usr": "s:7ESimKit0aB7ManagerC05embedA2VC2on20navigationControllerySo06UIViewH0C_So012UINavigationH0CSgtF",
+            "mangledName": "$s7ESimKit0aB7ManagerC05embedA2VC2on20navigationControllerySo06UIViewH0C_So012UINavigationH0CSgtF",
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
@@ -110926,28 +111537,35 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
       "kind": "StringLiteral",
-      "offset": 190,
+      "offset": 207,
+      "length": 5,
+      "value": "\"1.4\""
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 341,
+      "offset": 562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 435,
+      "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 704,
       "length": 5,
       "value": "false"
     },

@@ -20,5 +20,8 @@ class ViewController: UIViewController {
     
     @IBAction func btnAction(_ sender: UIButton) {
         ESimKitManager.shared.presentESimVC(on: self)
+        
+        //or embed
+        //ESimKitManager.shared.embedESimVC(on: self, navigationController: self.navigationController)
     }
 }

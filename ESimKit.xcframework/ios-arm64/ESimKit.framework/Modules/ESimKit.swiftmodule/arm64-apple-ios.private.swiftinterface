@@ -245,11 +245,12 @@ public struct ESimKitColor : Swift.Codable {
 }
 #warning("ESimKitManager.shared.domain! bu patlattı kaldır")
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ESimKitManager : ObjectiveC.NSObject {
+  #warning("arttır")
   public static let shared: ESimKit.ESimKitManager
   public var configuration: ESimKit.ESimKitConfiguration
-  public func startSDK(apiKey: Swift.String, inAppIdForCurrency: Swift.String, domain: Swift.String, privacyUrl: Foundation.URL, tosURL: Foundation.URL, configuration: ESimKit.ESimKitConfiguration? = nil)
+  public func startSDK(mainBundle: Foundation.Bundle, apiKey: Swift.String, inAppIdForCurrency: Swift.String, domain: Swift.String, privacyUrl: Foundation.URL, tosURL: Foundation.URL, udid: Swift.String? = nil, userSession: Swift.String? = nil, configuration: ESimKit.ESimKitConfiguration? = nil)
   public func presentESimVC(on: UIKit.UIViewController)
-  public func embedESimVC(on: UIKit.UIViewController)
+  public func embedESimVC(on: UIKit.UIViewController, navigationController: UIKit.UINavigationController? = nil)
   @objc deinit
 }
 extension ESimKit.SPIndicatorHaptic : Swift.Equatable {}
