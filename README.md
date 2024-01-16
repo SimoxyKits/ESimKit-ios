@@ -12,9 +12,6 @@ We're soon releasing our PhoneNumbersKit Framework. This SDK will enable your us
 
 1. Apple ID and Bundle ID of your application.
 2. Your application's Production Push Certificate (.pem file) along with its password, if it has one.
-3. Your application's App-Specific Shared Secret, which can be found on your app's App Store Connect information page.
-4. Configure your application to use the App Store Server Notifications Production URL provided by the Simoxy Team. If you
-    already have an existing URL, please use this PHP repository to forward notifications to our servers.
 
 **What You Will Receive from the Simoxy Team:**
 1. A dashboard link to view your application's statistics and earnings.
