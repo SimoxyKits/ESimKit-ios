@@ -35378,7 +35378,7 @@
           {
             "kind": "Function",
             "name": "setCell",
-            "printedName": "setCell(imageAppend:localization:model:isLastRow:)",
+            "printedName": "setCell(imageAppend:localization:model:isLastRow:indexPath:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35432,11 +35432,17 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit0A20MyESimsTableViewCellC03setG011imageAppend12localization5model9isLastRowySSSg_AA0A25NetworkLocalizationsModelVSgAA0acdR0VSgSbtF",
-            "mangledName": "$s7ESimKit0A20MyESimsTableViewCellC03setG011imageAppend12localization5model9isLastRowySSSg_AA0A25NetworkLocalizationsModelVSgAA0acdR0VSgSbtF",
+            "usr": "s:7ESimKit0A20MyESimsTableViewCellC03setG011imageAppend12localization5model9isLastRow9indexPathySSSg_AA0A25NetworkLocalizationsModelVSgAA0acdT0VSgSb10Foundation05IndexQ0VtF",
+            "mangledName": "$s7ESimKit0A20MyESimsTableViewCellC03setG011imageAppend12localization5model9isLastRow9indexPathySSSg_AA0A25NetworkLocalizationsModelVSgAA0acdT0VSgSb10Foundation05IndexQ0VtF",
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
@@ -44836,9 +44842,100 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "scrollToRow",
+            "printedName": "scrollToRow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit21MyEsimsViewControllerC11scrollToRowSivp",
+            "mangledName": "$s7ESimKit21MyEsimsViewControllerC11scrollToRowSivp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit21MyEsimsViewControllerC11scrollToRowSivg",
+                "mangledName": "$s7ESimKit21MyEsimsViewControllerC11scrollToRowSivg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit21MyEsimsViewControllerC11scrollToRowSivs",
+                "mangledName": "$s7ESimKit21MyEsimsViewControllerC11scrollToRowSivs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit21MyEsimsViewControllerC11scrollToRowSivM",
+                "mangledName": "$s7ESimKit21MyEsimsViewControllerC11scrollToRowSivM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(model:)",
+            "printedName": "init(model:selectedIndexPath:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44851,11 +44948,17 @@
                 "name": "ESimNetworksListModel",
                 "printedName": "ESimKit.ESimNetworksListModel",
                 "usr": "s:7ESimKit0A17NetworksListModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7ESimKit21MyEsimsViewControllerC5modelAcA0A17NetworksListModelV_tcfc",
-            "mangledName": "$s7ESimKit21MyEsimsViewControllerC5modelAcA0A17NetworksListModelV_tcfc",
+            "usr": "s:7ESimKit21MyEsimsViewControllerC5model17selectedIndexPathAcA0A17NetworksListModelV_Sitcfc",
+            "mangledName": "$s7ESimKit21MyEsimsViewControllerC5model17selectedIndexPathAcA0A17NetworksListModelV_Sitcfc",
             "moduleName": "ESimKit",
             "declAttributes": [
               "Custom"
@@ -44926,7 +45029,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true
           },
@@ -44952,7 +45055,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -62922,6 +63025,120 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "shakeMyEsimTableIndexPath",
+            "printedName": "shakeMyEsimTableIndexPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BehaviorRelay",
+                "printedName": "RxRelay.BehaviorRelay<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:7RxRelay08BehaviorB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvp",
+            "mangledName": "$s7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BehaviorRelay",
+                    "printedName": "RxRelay.BehaviorRelay<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:7RxRelay08BehaviorB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvg",
+                "mangledName": "$s7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BehaviorRelay",
+                    "printedName": "RxRelay.BehaviorRelay<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:7RxRelay08BehaviorB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvs",
+                "mangledName": "$s7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvM",
+                "mangledName": "$s7ESimKit10AppManagerC25shakeMyEsimTableIndexPath7RxRelay08BehaviorL0CySiGvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -64010,6 +64227,97 @@
           },
           {
             "kind": "Var",
+            "name": "scrollToTopNow",
+            "printedName": "scrollToTopNow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit0A14ViewControllerC14scrollToTopNowSbvp",
+            "mangledName": "$s7ESimKit0A14ViewControllerC14scrollToTopNowSbvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0A14ViewControllerC14scrollToTopNowSbvg",
+                "mangledName": "$s7ESimKit0A14ViewControllerC14scrollToTopNowSbvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0A14ViewControllerC14scrollToTopNowSbvs",
+                "mangledName": "$s7ESimKit0A14ViewControllerC14scrollToTopNowSbvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit0A14ViewControllerC14scrollToTopNowSbvM",
+                "mangledName": "$s7ESimKit0A14ViewControllerC14scrollToTopNowSbvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "cnstrTableViewBottomToSafeArea",
             "printedName": "cnstrTableViewBottomToSafeArea",
             "children": [
@@ -64032,7 +64340,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64148,7 +64456,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64264,7 +64572,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64380,7 +64688,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64496,7 +64804,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64612,7 +64920,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64728,7 +65036,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64844,7 +65152,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -64960,7 +65268,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65076,7 +65384,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65193,7 +65501,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "ownership": 1,
             "hasStorage": true
           },
@@ -65221,7 +65529,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65337,7 +65645,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65453,7 +65761,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65569,7 +65877,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65685,7 +65993,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65801,7 +66109,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -65917,7 +66225,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 19,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66033,7 +66341,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66149,7 +66457,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 21,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66265,7 +66573,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 22,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66381,7 +66689,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 23,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66497,7 +66805,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 24,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66613,7 +66921,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 25,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66727,7 +67035,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 26,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -66836,7 +67144,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 27,
             "hasStorage": true,
             "accessors": [
               {
@@ -66936,7 +67244,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 28,
             "hasStorage": true,
             "accessors": [
               {
@@ -67043,7 +67351,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 29,
             "hasStorage": true,
             "accessors": [
               {
@@ -67134,7 +67442,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 29,
+            "fixedbinaryorder": 30,
             "hasStorage": true,
             "accessors": [
               {
@@ -67233,7 +67541,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 30,
+            "fixedbinaryorder": 31,
             "hasStorage": true,
             "accessors": [
               {
@@ -67348,7 +67656,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 31,
+            "fixedbinaryorder": 32,
             "hasStorage": true,
             "accessors": [
               {
@@ -67455,7 +67763,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 32,
+            "fixedbinaryorder": 33,
             "hasStorage": true,
             "accessors": [
               {
@@ -67555,7 +67863,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 33,
+            "fixedbinaryorder": 34,
             "hasStorage": true,
             "accessors": [
               {
@@ -67662,7 +67970,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 34,
+            "fixedbinaryorder": 35,
             "hasStorage": true,
             "accessors": [
               {
@@ -67755,7 +68063,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 35,
+            "fixedbinaryorder": 36,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -67871,7 +68179,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 36,
+            "fixedbinaryorder": 37,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -67987,7 +68295,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 37,
+            "fixedbinaryorder": 38,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -68103,7 +68411,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 38,
+            "fixedbinaryorder": 39,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -68219,7 +68527,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 39,
+            "fixedbinaryorder": 40,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -68335,7 +68643,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 40,
+            "fixedbinaryorder": 41,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -68449,7 +68757,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 41,
+            "fixedbinaryorder": 42,
             "hasStorage": true,
             "accessors": [
               {
@@ -109898,8 +110206,15 @@
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/MyEsimsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/MyEsimsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 749,
+      "offset": 847,
       "length": 5,
       "value": "false"
     },
@@ -111438,64 +111753,78 @@
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5739,
+      "offset": 5804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5776,
+      "offset": 5841,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9662,
+      "offset": 9727,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1621,
+      "offset": 1571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1658,
+      "offset": 1657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1803,
+      "offset": 1694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1917,
+      "offset": 1839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2341,
+      "offset": 1953,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2377,
       "length": 5,
       "value": "false"
     },
@@ -111539,7 +111868,7 @@
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
-      "value": "\"1.4\""
+      "value": "\"1.5\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
