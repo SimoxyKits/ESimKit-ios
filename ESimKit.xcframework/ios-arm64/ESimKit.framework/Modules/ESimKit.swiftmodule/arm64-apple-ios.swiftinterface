@@ -251,6 +251,7 @@ public struct ESimKitColor : Swift.Codable {
   public func startSDK(mainBundle: Foundation.Bundle, apiKey: Swift.String, inAppIdForCurrency: Swift.String, domain: Swift.String, privacyUrl: Foundation.URL, tosURL: Foundation.URL, udid: Swift.String? = nil, userSession: Swift.String? = nil, configuration: ESimKit.ESimKitConfiguration? = nil)
   public func presentESimVC(on: UIKit.UIViewController)
   public func embedESimVC(on: UIKit.UIViewController, navigationController: UIKit.UINavigationController? = nil)
+  public func scrollToTop()
   @objc deinit
 }
 extension ESimKit.SPIndicatorHaptic : Swift.Equatable {}

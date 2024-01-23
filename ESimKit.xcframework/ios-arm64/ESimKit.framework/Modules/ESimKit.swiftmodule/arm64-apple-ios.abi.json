@@ -9340,6 +9340,26 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollToTop",
+            "printedName": "scrollToTop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ESimKit0aB7ManagerC11scrollToTopyyF",
+            "mangledName": "$s7ESimKit0aB7ManagerC11scrollToTopyyF",
+            "moduleName": "ESimKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -18847,7 +18867,7 @@
       "kind": "FloatLiteral",
       "offset": 2465,
       "length": 3,
-      "value": "0.3"
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/MyEsimsViewController.swift",
@@ -21239,672 +21259,672 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1086,
+      "offset": 1145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1284,
       "length": 73,
       "value": "\"disableSwipeBackOnNavigationController \""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 1279,
+      "offset": 1338,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1386,
+      "offset": 1445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1498,
+      "offset": 1557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1664,
       "length": 42,
       "value": "\"enableAllSwipeBackOnNavigationController\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1706,
+      "offset": 1765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1766,
+      "offset": 1825,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2226,
+      "offset": 2285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2780,
+      "offset": 2839,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3252,
+      "offset": 3311,
       "length": 12,
       "value": "\"__SCOPED__\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3430,
       "length": 5,
       "value": "\"tap\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
+      "offset": 3446,
       "length": 5,
       "value": "\"tun\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3403,
+      "offset": 3462,
       "length": 5,
       "value": "\"ppp\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3419,
+      "offset": 3478,
       "length": 7,
       "value": "\"ipsec\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3496,
       "length": 8,
       "value": "\"ipsec0\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3456,
+      "offset": 3515,
       "length": 7,
       "value": "\"utun1\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3474,
+      "offset": 3533,
       "length": 7,
       "value": "\"utun2\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3512,
+      "offset": 3571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3575,
+      "offset": 3634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3670,
+      "offset": 3729,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3708,
+      "offset": 3767,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3716,
+      "offset": 3775,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3751,
+      "offset": 3810,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3759,
+      "offset": 3818,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3882,
+      "offset": 3941,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3899,
+      "offset": 3958,
       "length": 10,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 3967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3943,
+      "offset": 4002,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 4019,
       "length": 12,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4006,
+      "offset": 4065,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4023,
+      "offset": 4082,
       "length": 12,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4034,
+      "offset": 4093,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4063,
+      "offset": 4122,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4068,
+      "offset": 4127,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 4132,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 4078,
+      "offset": 4137,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4178,
+      "offset": 4237,
       "length": 5,
       "value": "180.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4441,
+      "offset": 4500,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4544,
+      "offset": 4603,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4575,
+      "offset": 4634,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4917,
+      "offset": 4976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4970,
+      "offset": 5029,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5220,
+      "offset": 5279,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5273,
+      "offset": 5332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5582,
+      "offset": 5641,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5588,
+      "offset": 5647,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5804,
+      "offset": 5863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5841,
+      "offset": 5900,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5967,
+      "offset": 6026,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6069,
+      "offset": 6128,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6975,
+      "offset": 7034,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6982,
+      "offset": 7041,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6989,
+      "offset": 7048,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7018,
+      "offset": 7077,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7208,
+      "offset": 7267,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7216,
+      "offset": 7275,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7295,
+      "offset": 7354,
       "length": 3,
       "value": "192"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7472,
+      "offset": 7531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7518,
+      "offset": 7577,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7674,
+      "offset": 7733,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7680,
+      "offset": 7739,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7719,
+      "offset": 7778,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7726,
+      "offset": 7785,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7862,
+      "offset": 7921,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 7954,
+      "offset": 8013,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8164,
+      "offset": 8223,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8334,
+      "offset": 8393,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8363,
+      "offset": 8422,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8392,
+      "offset": 8451,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8429,
+      "offset": 8488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8434,
+      "offset": 8493,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8466,
+      "offset": 8525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8472,
+      "offset": 8531,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8527,
+      "offset": 8586,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8532,
+      "offset": 8591,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8564,
+      "offset": 8623,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8570,
+      "offset": 8629,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8625,
+      "offset": 8684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8630,
+      "offset": 8689,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8662,
+      "offset": 8721,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8668,
+      "offset": 8727,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 8744,
+      "offset": 8803,
       "length": 18,
       "value": "\"#%02lX%02lX%02lX\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8782,
+      "offset": 8841,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8807,
+      "offset": 8866,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8832,
+      "offset": 8891,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9727,
+      "offset": 9786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9896,
+      "offset": 9955,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10174,
+      "offset": 10233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10258,
+      "offset": 10317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "Dictionary",
-      "offset": 10388,
+      "offset": 10447,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10597,
+      "offset": 10656,
       "length": 4,
       "value": "0.00"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "StringLiteral",
-      "offset": 10624,
+      "offset": 10683,
       "length": 5,
       "value": "\"000\""
     },
@@ -22309,183 +22329,204 @@
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13017,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13029,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12818,
+      "offset": 13053,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13240,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12835,
+      "offset": 13257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12993,
+      "offset": 13415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13512,
+      "offset": 13934,
       "length": 19,
       "value": "\"btn-close-x-white\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13739,
+      "offset": 14161,
       "length": 19,
       "value": "\"btn-close-x-white\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 14988,
+      "offset": 15410,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 15041,
+      "offset": 15463,
       "length": 5,
       "value": "164.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15089,
+      "offset": 15511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15137,
+      "offset": 15559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16318,
+      "offset": 16740,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16370,
+      "offset": 16792,
       "length": 4,
       "value": "36.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16417,
+      "offset": 16839,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16464,
+      "offset": 16886,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16567,
+      "offset": 16989,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16571,
+      "offset": 16993,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16616,
+      "offset": 17038,
       "length": 14,
       "value": "\"tab_internet\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16940,
+      "offset": 17362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16997,
+      "offset": 17419,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17052,
+      "offset": 17474,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17108,
+      "offset": 17530,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17180,
+      "offset": 17602,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17236,
+      "offset": 17658,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17288,
+      "offset": 17710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17345,
+      "offset": 17767,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17503,
+      "offset": 17925,
       "length": 15,
       "value": "\"esim_internet\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17721,
+      "offset": 18143,
       "length": 18,
       "value": "\"icon_refresh_new\""
     },
@@ -22499,21 +22540,21 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18050,
+      "offset": 18472,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18101,
+      "offset": 18523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18117,
+      "offset": 18539,
       "length": 5,
       "value": "false"
     },
@@ -23292,7 +23333,7 @@
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
-      "value": "\"1.5\""
+      "value": "\"1.6\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
@@ -23459,6 +23500,13 @@
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4404,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4899,
       "length": 4,
       "value": "true"
     },

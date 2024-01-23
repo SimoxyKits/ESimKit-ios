@@ -63139,6 +63139,144 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "scrollToTop",
+            "printedName": "scrollToTop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BehaviorRelay",
+                "printedName": "RxRelay.BehaviorRelay<Swift.Bool?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7RxRelay08BehaviorB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvp",
+            "mangledName": "$s7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvp",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BehaviorRelay",
+                    "printedName": "RxRelay.BehaviorRelay<Swift.Bool?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7RxRelay08BehaviorB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvg",
+                "mangledName": "$s7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvg",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BehaviorRelay",
+                    "printedName": "RxRelay.BehaviorRelay<Swift.Bool?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7RxRelay08BehaviorB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvs",
+                "mangledName": "$s7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvs",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvM",
+                "mangledName": "$s7ESimKit10AppManagerC11scrollToTop7RxRelay08BehaviorI0CySbSgGvM",
+                "moduleName": "ESimKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -95711,6 +95849,27 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollToTop",
+            "printedName": "scrollToTop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ESimKit0aB7ManagerC11scrollToTopyyF",
+            "mangledName": "$s7ESimKit0aB7ManagerC11scrollToTopyyF",
+            "moduleName": "ESimKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -111761,21 +111920,21 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5804,
+      "offset": 5863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5841,
+      "offset": 5900,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Managers\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9727,
+      "offset": 9786,
       "length": 4,
       "value": "true"
     },
@@ -111868,7 +112027,7 @@
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
-      "value": "\"1.5\""
+      "value": "\"1.6\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
