@@ -30,11 +30,11 @@
 		</data>
 		<key>ESimMyESimsMiniTableViewCell.nib</key>
 		<data>
-		BFchApHyygbGTIxNfaRQYda42xQ=
+		asZM3mr2qVPDJ9DxTsoLKmbfDI0=
 		</data>
 		<key>ESimMyESimsTableViewCell.nib</key>
 		<data>
-		/38O9MgCmm4fkmye7tU5DE/XCK4=
+		HkiSi/RvqsSPocrS/hIqIM6GlX0=
 		</data>
 		<key>ESimPackagesTableViewCell.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ESimRegionDetailVC.nib</key>
 		<data>
-		8n78QQ8f8xnEVG1QaXSJ1GaaK4o=
+		1h2K71MsLV6wk6DOyNo8chvLiHg=
 		</data>
 		<key>ESimRegionsLastTableViewCell.nib</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bJe7djEYkiI5ji1TJHGNgFikoMc=
+		khTUMiGizR0yLz9pC+UlX54ezag=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W3TKkHaeAcnMTO2++qnJCJbeRmI=
+		TDEs81oj37ExmcAS5Lh+iQt7esY=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bJe7djEYkiI5ji1TJHGNgFikoMc=
+		khTUMiGizR0yLz9pC+UlX54ezag=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1aC3fbSkeJfNTA6o+HBEd+vZQus=
+		NegpDc3DaEaShRdDG9cE4BdlwYU=
 		</data>
 		<key>Montserrat-Bold.ttf</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MyEsimsViewController.nib</key>
 		<data>
-		ro4SjlibT0dv4g48y0hy55UAxkY=
+		9pv3d/EuLo3nCZGOdEwFJEAQUbw=
 		</data>
 		<key>NewEsimRegionCollectionCell.nib</key>
 		<data>
@@ -500,14 +500,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jkpJbmOI36WO42PNfTRlirvBfTZqCH/FI7g55FPwL3c=
+			UpViD9Ycn2MMVVMn9vsH+WsmjnTxta+kXT85T5m4oBU=
 			</data>
 		</dict>
 		<key>ESimMyESimsTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sh4DFGAKgA5T+D19bu2GF3FFm2/daSMRLo5dfhuGl8I=
+			XXGNtBdd0/joR4bcEdn/WSczVlO4Fn9WLmQ2/IUJlhc=
 			</data>
 		</dict>
 		<key>ESimPackagesTableViewCell.nib</key>
@@ -521,7 +521,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4YD3/586lNf/CxIzvEcN7NZaD+0ByKxLhfdrdj+bUz0=
+			KVMtTcHrHtXdcF0ghdYYY479PeCkrq3RG0rqRMLF0vk=
 			</data>
 		</dict>
 		<key>ESimRegionsLastTableViewCell.nib</key>
@@ -563,7 +563,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			69+LlJWs4AksG/lmy9j1C9BiIGIXQ6KXc2iz6SZ35ig=
+			YcESvI2xpOXbNNEz7xEinZ9LzDn+i2GaL9CFMdpq+dI=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -591,14 +591,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXVSSdE/Y98XO2+gi7E9hzrDyrJIt+qC24KoJLS6Z8I=
+			UUnbKGJ/NwgdUDDMwFXI0D98beTr8jOdOSyu576ElCg=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			69+LlJWs4AksG/lmy9j1C9BiIGIXQ6KXc2iz6SZ35ig=
+			YcESvI2xpOXbNNEz7xEinZ9LzDn+i2GaL9CFMdpq+dI=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -626,7 +626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rE+E1jU1tEZOZaBjS0+qDftr4gHiUEEy3D6w5dJBpXg=
+			opRQhAo4qo+fhoaZQphJR97iVBj70N2lbejLxT71Mio=
 			</data>
 		</dict>
 		<key>Montserrat-Bold.ttf</key>
@@ -668,7 +668,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PgIYJX17EzrmELNMjydTMn2V6nTWNhSS1YuB0sFNKZY=
+			0zdowLnzNiACVuv1DpvsfNINF1JGU1wkcH8ub//asKk=
 			</data>
 		</dict>
 		<key>NewEsimRegionCollectionCell.nib</key>
