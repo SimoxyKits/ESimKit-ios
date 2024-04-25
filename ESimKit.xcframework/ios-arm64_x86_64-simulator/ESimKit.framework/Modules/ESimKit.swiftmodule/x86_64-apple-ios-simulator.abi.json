@@ -1564,7 +1564,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1589,7 +1589,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2580,7 +2580,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2605,7 +2605,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4547,7 +4547,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4572,7 +4572,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5460,7 +5460,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5488,7 +5488,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5752,7 +5752,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5777,7 +5777,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6124,8 +6124,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6153,8 +6153,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6182,8 +6182,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6212,8 +6212,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6241,8 +6241,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6270,8 +6270,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6299,8 +6299,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -6913,7 +6913,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "ESimKit.PremiumVCModelProtocol?"
+                "printedName": "(any ESimKit.PremiumVCModelProtocol)?"
               }
             ],
             "declKind": "Var",
@@ -6938,12 +6938,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ESimKit.PremiumVCModelProtocol?",
+                    "printedName": "(any ESimKit.PremiumVCModelProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PremiumVCModelProtocol",
-                        "printedName": "ESimKit.PremiumVCModelProtocol",
+                        "printedName": "any ESimKit.PremiumVCModelProtocol",
                         "usr": "s:7ESimKit22PremiumVCModelProtocolP"
                       }
                     ],
@@ -6974,12 +6974,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ESimKit.PremiumVCModelProtocol?",
+                    "printedName": "(any ESimKit.PremiumVCModelProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PremiumVCModelProtocol",
-                        "printedName": "ESimKit.PremiumVCModelProtocol",
+                        "printedName": "any ESimKit.PremiumVCModelProtocol",
                         "usr": "s:7ESimKit22PremiumVCModelProtocolP"
                       }
                     ],
@@ -9054,7 +9054,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9079,7 +9079,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9469,7 +9469,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9494,7 +9494,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10314,9 +10314,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -10414,9 +10414,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -10529,9 +10529,9 @@
             "moduleName": "ESimKit",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -10555,9 +10555,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -10660,9 +10660,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -11059,12 +11059,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerAnimatedTransitioning",
-                    "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                     "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
                   }
                 ],
@@ -11115,12 +11115,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerInteractiveTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerInteractiveTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerInteractiveTransitioning",
-                    "printedName": "UIKit.UIViewControllerInteractiveTransitioning",
+                    "printedName": "any UIKit.UIViewControllerInteractiveTransitioning",
                     "usr": "c:objc(pl)UIViewControllerInteractiveTransitioning"
                   }
                 ],
@@ -11135,7 +11135,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerAnimatedTransitioning",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                 "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
               }
             ],
@@ -11194,12 +11194,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11214,12 +11214,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11420,7 +11420,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UINavigationControllerDelegate",
-                    "printedName": "UIKit.UINavigationControllerDelegate",
+                    "printedName": "any UIKit.UINavigationControllerDelegate",
                     "usr": "c:objc(pl)UINavigationControllerDelegate"
                   }
                 ]
@@ -11450,12 +11450,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerContextTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerContextTransitioning",
-                    "printedName": "UIKit.UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
                     "usr": "c:objc(pl)UIViewControllerContextTransitioning"
                   }
                 ],
@@ -11487,7 +11487,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerContextTransitioning",
-                "printedName": "UIKit.UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
                 "usr": "c:objc(pl)UIViewControllerContextTransitioning"
               }
             ],
@@ -11718,9 +11718,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -11817,9 +11817,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -11914,7 +11914,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "ESimKit.BuyESimProtocol?"
+                "printedName": "(any ESimKit.BuyESimProtocol)?"
               }
             ],
             "declKind": "Var",
@@ -11923,9 +11923,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 2,
@@ -11940,12 +11940,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ESimKit.BuyESimProtocol?",
+                    "printedName": "(any ESimKit.BuyESimProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BuyESimProtocol",
-                        "printedName": "ESimKit.BuyESimProtocol",
+                        "printedName": "any ESimKit.BuyESimProtocol",
                         "usr": "s:7ESimKit03BuyA8ProtocolP"
                       }
                     ],
@@ -11973,12 +11973,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ESimKit.BuyESimProtocol?",
+                    "printedName": "(any ESimKit.BuyESimProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BuyESimProtocol",
-                        "printedName": "ESimKit.BuyESimProtocol",
+                        "printedName": "any ESimKit.BuyESimProtocol",
                         "usr": "s:7ESimKit03BuyA8ProtocolP"
                       }
                     ],
@@ -12032,8 +12032,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12148,8 +12148,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12264,8 +12264,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12380,8 +12380,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12496,8 +12496,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12612,8 +12612,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12728,8 +12728,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12844,8 +12844,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12960,8 +12960,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13076,8 +13076,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13192,8 +13192,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13308,8 +13308,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13424,8 +13424,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13540,8 +13540,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13656,8 +13656,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13772,8 +13772,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -13888,8 +13888,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14004,8 +14004,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14120,8 +14120,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14236,8 +14236,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14352,8 +14352,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14468,8 +14468,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14584,8 +14584,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14700,8 +14700,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14816,8 +14816,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -14932,8 +14932,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -15048,8 +15048,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -15164,8 +15164,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15193,8 +15193,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15222,8 +15222,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15251,8 +15251,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15280,8 +15280,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15309,8 +15309,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -15346,9 +15346,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 36,
             "hasStorage": true,
@@ -15453,9 +15453,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 37,
             "hasStorage": true,
@@ -15544,9 +15544,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 38,
             "hasStorage": true,
@@ -15635,9 +15635,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 39,
             "hasStorage": true,
@@ -15726,9 +15726,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 40,
             "hasStorage": true,
@@ -15817,9 +15817,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 41,
             "hasStorage": true,
@@ -15908,9 +15908,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 42,
             "hasStorage": true,
@@ -17773,7 +17773,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -17798,7 +17798,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -18030,7 +18030,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -18055,7 +18055,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -18421,7 +18421,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -18446,7 +18446,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19214,7 +19214,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -19239,7 +19239,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19910,7 +19910,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UIScrollViewDelegate",
-                    "printedName": "UIKit.UIScrollViewDelegate",
+                    "printedName": "any UIKit.UIScrollViewDelegate",
                     "usr": "c:objc(pl)UIScrollViewDelegate"
                   }
                 ]
@@ -23575,7 +23575,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -23600,7 +23600,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -24026,8 +24026,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ResponseHandler",
-        "printedName": "ResponseHandler",
+        "name": "ResponseHandler2",
+        "printedName": "ResponseHandler2",
         "children": [
           {
             "kind": "Var",
@@ -24042,8 +24042,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7ESimKit15ResponseHandlerC06_printC4BodySbvp",
-            "mangledName": "$s7ESimKit15ResponseHandlerC06_printC4BodySbvp",
+            "usr": "s:7ESimKit16ResponseHandler2C06_printC4BodySbvp",
+            "mangledName": "$s7ESimKit16ResponseHandler2C06_printC4BodySbvp",
             "moduleName": "ESimKit",
             "declAttributes": [
               "HasInitialValue",
@@ -24067,8 +24067,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7ESimKit15ResponseHandlerC06_printC4BodySbvg",
-                "mangledName": "$s7ESimKit15ResponseHandlerC06_printC4BodySbvg",
+                "usr": "s:7ESimKit16ResponseHandler2C06_printC4BodySbvg",
+                "mangledName": "$s7ESimKit16ResponseHandler2C06_printC4BodySbvg",
                 "moduleName": "ESimKit",
                 "implicit": true,
                 "declAttributes": [
@@ -24082,7 +24082,7 @@
           {
             "kind": "Function",
             "name": "handleResponse",
-            "printedName": "handleResponse(subModel:response:printBody:showErrors:)",
+            "printedName": "handleResponse(_:_:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24132,18 +24132,20 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit15ResponseHandlerC06handleC08subModel8response9printBody10showErrorsxSgxm_9Alamofire04DataC0VyxAJ7AFErrorOGS2btSeRzSERzlF",
-            "mangledName": "$s7ESimKit15ResponseHandlerC06handleC08subModel8response9printBody10showErrorsxSgxm_9Alamofire04DataC0VyxAJ7AFErrorOGS2btSeRzSERzlF",
+            "usr": "s:7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
+            "mangledName": "$s7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
             "moduleName": "ESimKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
@@ -24153,7 +24155,7 @@
           {
             "kind": "Function",
             "name": "handleNullResponse",
-            "printedName": "handleNullResponse(subModel:response:printBody:showErrors:)",
+            "printedName": "handleNullResponse(_:_:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24204,18 +24206,20 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit15ResponseHandlerC010handleNullC08subModel8response9printBody10showErrorsSbSgxm_9Alamofire04DataC0VyxAJ7AFErrorOGS2btSeRzSERzlF",
-            "mangledName": "$s7ESimKit15ResponseHandlerC010handleNullC08subModel8response9printBody10showErrorsSbSgxm_9Alamofire04DataC0VyxAJ7AFErrorOGS2btSeRzSERzlF",
+            "usr": "s:7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
+            "mangledName": "$s7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
             "moduleName": "ESimKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
@@ -24229,22 +24233,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ResponseHandler",
-                "printedName": "ESimKit.ResponseHandler",
-                "usr": "s:7ESimKit15ResponseHandlerC"
+                "name": "ResponseHandler2",
+                "printedName": "ESimKit.ResponseHandler2",
+                "usr": "s:7ESimKit16ResponseHandler2C"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7ESimKit15ResponseHandlerCACycfc",
-            "mangledName": "$s7ESimKit15ResponseHandlerCACycfc",
+            "usr": "s:7ESimKit16ResponseHandler2CACycfc",
+            "mangledName": "$s7ESimKit16ResponseHandler2CACycfc",
             "moduleName": "ESimKit",
             "implicit": true,
             "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:7ESimKit15ResponseHandlerC",
-        "mangledName": "$s7ESimKit15ResponseHandlerC",
+        "usr": "s:7ESimKit16ResponseHandler2C",
+        "mangledName": "$s7ESimKit16ResponseHandler2C",
         "moduleName": "ESimKit",
         "isOpen": true
       },
@@ -24569,7 +24573,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -24594,7 +24598,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -26489,7 +26493,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -26514,7 +26518,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -26608,9 +26612,9 @@
             "mangledName": "$s7ESimKit18BaseViewControllerC10disposeBag7RxSwift07DisposeG0Cvp",
             "moduleName": "ESimKit",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 0,
@@ -26667,9 +26671,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -26774,9 +26778,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -26865,9 +26869,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -26956,9 +26960,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -27047,9 +27051,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 5,
             "hasStorage": true,
@@ -27138,9 +27142,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 6,
             "hasStorage": true,
@@ -27229,9 +27233,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 7,
             "hasStorage": true,
@@ -28212,9 +28216,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 12,
             "hasStorage": true,
@@ -29300,8 +29304,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29329,8 +29333,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29358,8 +29362,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29387,8 +29391,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29416,8 +29420,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29445,8 +29449,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29474,8 +29478,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -29794,9 +29798,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -29911,8 +29915,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30027,8 +30031,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30143,8 +30147,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30259,8 +30263,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30375,8 +30379,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -30404,8 +30408,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30520,8 +30524,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30636,8 +30640,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30752,8 +30756,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30868,8 +30872,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -30984,8 +30988,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31100,8 +31104,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31216,8 +31220,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31332,8 +31336,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31448,8 +31452,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31564,8 +31568,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31680,8 +31684,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31796,8 +31800,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -31912,8 +31916,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32028,8 +32032,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32144,8 +32148,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32260,8 +32264,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32376,8 +32380,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32492,8 +32496,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32608,8 +32612,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32724,8 +32728,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32840,8 +32844,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -32956,8 +32960,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33072,8 +33076,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33188,8 +33192,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33304,8 +33308,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33420,8 +33424,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33536,8 +33540,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33652,8 +33656,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33768,8 +33772,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -33884,8 +33888,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -34000,8 +34004,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -34458,9 +34462,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -34549,8 +34553,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34578,8 +34582,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34607,8 +34611,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34636,8 +34640,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34665,8 +34669,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34694,8 +34698,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34723,8 +34727,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34752,8 +34756,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34781,8 +34785,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34810,8 +34814,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34839,8 +34843,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34868,8 +34872,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34897,8 +34901,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34926,8 +34930,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34955,8 +34959,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -34984,8 +34988,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35013,8 +35017,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35042,8 +35046,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35071,8 +35075,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35100,8 +35104,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35129,8 +35133,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35158,8 +35162,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -35187,8 +35191,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -38423,8 +38427,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38452,8 +38456,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38481,8 +38485,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38510,8 +38514,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38539,8 +38543,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38568,8 +38572,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38597,8 +38601,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -38626,8 +38630,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -39747,7 +39751,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -39772,7 +39776,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -39843,8 +39847,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "Dynamic",
               "ObjC",
@@ -39925,9 +39929,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -40021,8 +40025,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -40134,9 +40138,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -40267,9 +40271,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -40369,9 +40373,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -40487,9 +40491,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -40605,9 +40609,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -40714,9 +40718,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership"
             ],
@@ -41126,9 +41130,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -41221,9 +41225,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -43885,10 +43889,10 @@
             "mangledName": "$s7ESimKit16PaddingTextFieldC7paddingSo12UIEdgeInsetsVvp",
             "moduleName": "ESimKit",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "isLet": true,
@@ -44288,9 +44292,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -44395,8 +44399,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -44511,8 +44515,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -44627,8 +44631,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -44743,8 +44747,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -44859,9 +44863,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 5,
             "hasStorage": true,
@@ -45023,10 +45027,10 @@
             "moduleName": "ESimKit",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -45051,9 +45055,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 7,
             "hasStorage": true,
@@ -48335,7 +48339,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -48360,7 +48364,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -48844,7 +48848,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -48869,7 +48873,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -48943,8 +48947,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -48972,8 +48976,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -49001,8 +49005,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -49971,7 +49975,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -49996,7 +50000,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -51033,7 +51037,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -51058,7 +51062,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -51960,7 +51964,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -51985,7 +51989,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -52383,7 +52387,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -52408,7 +52412,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -55196,7 +55200,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -55221,7 +55225,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -56659,7 +56663,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -56684,7 +56688,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -57479,7 +57483,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -57504,7 +57508,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -58716,7 +58720,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -58741,7 +58745,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -59107,7 +59111,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -59132,7 +59136,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -59786,7 +59790,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -59813,7 +59817,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -59896,7 +59900,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -59921,7 +59925,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -59999,8 +60003,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60028,8 +60032,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60057,8 +60061,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60086,8 +60090,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60115,8 +60119,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60144,8 +60148,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60173,8 +60177,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60202,8 +60206,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60231,8 +60235,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60260,8 +60264,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60632,8 +60636,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60661,8 +60665,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60690,8 +60694,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -60727,9 +60731,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -62091,7 +62095,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -62116,7 +62120,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -64272,9 +64276,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -64381,9 +64385,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -64472,8 +64476,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -64588,8 +64592,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -64704,8 +64708,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -64820,8 +64824,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -64936,8 +64940,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65052,8 +65056,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65168,8 +65172,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65284,8 +65288,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65400,8 +65404,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65516,8 +65520,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65632,8 +65636,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -65661,8 +65665,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65777,8 +65781,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -65893,8 +65897,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66009,8 +66013,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66125,8 +66129,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66241,8 +66245,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66357,8 +66361,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66473,8 +66477,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66589,8 +66593,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66705,8 +66709,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66821,8 +66825,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -66937,8 +66941,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -67053,8 +67057,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -67168,9 +67172,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 26,
@@ -67277,9 +67281,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 27,
@@ -67377,9 +67381,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 28,
@@ -67485,9 +67489,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 29,
             "hasStorage": true,
@@ -67576,9 +67580,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 30,
             "hasStorage": true,
@@ -67675,9 +67679,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 31,
             "hasStorage": true,
@@ -67790,9 +67794,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 32,
             "hasStorage": true,
@@ -67897,9 +67901,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 33,
             "hasStorage": true,
@@ -67996,9 +68000,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 34,
@@ -68104,9 +68108,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 35,
             "hasStorage": true,
@@ -68195,8 +68199,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68311,8 +68315,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68427,8 +68431,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68543,8 +68547,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68659,8 +68663,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68775,8 +68779,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -68891,9 +68895,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 42,
             "hasStorage": true,
@@ -70432,9 +70436,9 @@
             "moduleName": "ESimKit",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -71197,7 +71201,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -71222,7 +71226,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -72248,7 +72252,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -72273,7 +72277,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -76659,7 +76663,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -76684,7 +76688,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -82812,7 +82816,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -82837,7 +82841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -83771,7 +83775,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -83796,7 +83800,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -84296,7 +84300,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -84321,7 +84325,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -84955,7 +84959,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -84980,7 +84984,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -85812,7 +85816,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -85837,7 +85841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -87275,7 +87279,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -87300,7 +87304,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -88202,7 +88206,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -88227,7 +88231,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -88312,9 +88316,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -88403,8 +88407,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88432,8 +88436,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88461,8 +88465,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88490,8 +88494,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88519,8 +88523,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88548,8 +88552,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -88986,9 +88990,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -89103,8 +89107,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89219,8 +89223,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89335,8 +89339,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89451,8 +89455,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89567,8 +89571,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -89596,8 +89600,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89712,8 +89716,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89828,8 +89832,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -89944,8 +89948,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90060,8 +90064,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90176,8 +90180,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90292,8 +90296,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90408,8 +90412,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90524,8 +90528,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90640,8 +90644,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90756,8 +90760,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90872,8 +90876,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -90988,8 +90992,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91104,8 +91108,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91220,8 +91224,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91336,8 +91340,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91452,8 +91456,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91568,8 +91572,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91684,8 +91688,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91800,8 +91804,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -91916,8 +91920,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92032,8 +92036,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92148,8 +92152,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92264,8 +92268,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92380,8 +92384,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92496,8 +92500,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92612,8 +92616,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92728,8 +92732,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92844,8 +92848,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -92960,8 +92964,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93076,8 +93080,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93192,8 +93196,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93308,8 +93312,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93424,8 +93428,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93540,8 +93544,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93656,8 +93660,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93772,8 +93776,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -93888,8 +93892,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96012,8 +96016,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96128,8 +96132,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -96157,8 +96161,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -96186,8 +96190,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "IBOutlet",
@@ -96215,8 +96219,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96331,8 +96335,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96447,8 +96451,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96563,8 +96567,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96679,8 +96683,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96795,8 +96799,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -96911,8 +96915,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -97035,9 +97039,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 11,
             "hasStorage": true,
@@ -97150,9 +97154,9 @@
             "moduleName": "ESimKit",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 12,
             "hasStorage": true,
@@ -97595,7 +97599,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -97605,12 +97609,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -98691,7 +98695,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -98716,7 +98720,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -99217,7 +99221,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -99242,7 +99246,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -106048,12 +106052,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.CVarArg]",
+                "printedName": "[any Swift.CVarArg]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CVarArg",
-                    "printedName": "Swift.CVarArg",
+                    "printedName": "any Swift.CVarArg",
                     "usr": "s:s7CVarArgP"
                   }
                 ],
@@ -106396,6 +106400,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -107247,7 +107252,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UISearchBarDelegate",
-                    "printedName": "UIKit.UISearchBarDelegate",
+                    "printedName": "any UIKit.UISearchBarDelegate",
                     "usr": "c:objc(pl)UISearchBarDelegate"
                   }
                 ]
@@ -107491,10 +107496,10 @@
             "moduleName": "ESimKit",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isFromExtension": true,
             "isLet": true,
@@ -109568,14 +109573,42 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 89,
+      "offset": 90,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3525,
+      "offset": 287,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1959,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/ResponseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3564,
       "length": 5,
       "value": "false"
     },
@@ -110261,35 +110294,35 @@
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/NetworkManager+Payment.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/NetworkManager+Payment.swift",
       "kind": "IntegerLiteral",
-      "offset": 1285,
+      "offset": 1243,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/NetworkManager+Payment.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 1300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/NetworkManager+Payment.swift",
       "kind": "StringLiteral",
-      "offset": 1406,
+      "offset": 1364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Network\/NetworkManager+Payment.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1431,
       "length": 2,
       "value": "\"\""
     },
@@ -112027,7 +112060,7 @@
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
-      "value": "\"1.7\""
+      "value": "\"1.8\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
