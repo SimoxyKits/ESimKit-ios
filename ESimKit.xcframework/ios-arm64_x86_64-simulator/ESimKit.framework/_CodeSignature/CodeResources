@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		EjxMsAFQeDmMeZHDo8JEVrd+IZs=
+		1R0NUq+6vXgISC/fv1/57s6m0TA=
 		</data>
 		<key>ESimActivateESimVC.nib</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>ESimMyESimsMiniTableViewCell.nib</key>
 		<data>
-		BFchApHyygbGTIxNfaRQYda42xQ=
+		asZM3mr2qVPDJ9DxTsoLKmbfDI0=
 		</data>
 		<key>ESimMyESimsTableViewCell.nib</key>
 		<data>
-		/38O9MgCmm4fkmye7tU5DE/XCK4=
+		HkiSi/RvqsSPocrS/hIqIM6GlX0=
 		</data>
 		<key>ESimPackagesTableViewCell.nib</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ESimViewController.nib</key>
 		<data>
-		6GZQSNskPiOmaoFn4pPH7PzhYZc=
+		8Hvk8Gq2SE9MOgSszbp2uILjfv0=
 		</data>
 		<key>Headers/ESimKit-Swift.h</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L076ncowlPDUIPe92qu5MfI121I=
+		jBmAg5KtKU7ip0EbNbXn+nXMGD0=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		g0FkjiqYbahclY40e9JpBbvkaLg=
+		JLyBrlLkxt4IBP6ShOfHCENXiOc=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cHdEN5XAU0E1pqNnhPNbk6gJNMU=
+		8UmfonFWMMBMEi2Te6E9sSQvrG4=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		g0FkjiqYbahclY40e9JpBbvkaLg=
+		JLyBrlLkxt4IBP6ShOfHCENXiOc=
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+qdDLtQnWd24jOn4mp60/6c4IWA=
+		5B8J2ik0iNmT429hTip2UDivijU=
 		</data>
 		<key>Montserrat-Bold.ttf</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MyEsimsViewController.nib</key>
 		<data>
-		ro4SjlibT0dv4g48y0hy55UAxkY=
+		9pv3d/EuLo3nCZGOdEwFJEAQUbw=
 		</data>
 		<key>NewEsimRegionCollectionCell.nib</key>
 		<data>
@@ -458,7 +458,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SowrP3viZWhGoDZ1cTjYJB+TqzWY7UkOstPTJeuVmNw=
+			5c+qyvgbaIracrvVWRdEvNarQzi4r39nO1znJlHypTQ=
 			</data>
 		</dict>
 		<key>ESimActivateESimVC.nib</key>
@@ -500,14 +500,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jkpJbmOI36WO42PNfTRlirvBfTZqCH/FI7g55FPwL3c=
+			UpViD9Ycn2MMVVMn9vsH+WsmjnTxta+kXT85T5m4oBU=
 			</data>
 		</dict>
 		<key>ESimMyESimsTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sh4DFGAKgA5T+D19bu2GF3FFm2/daSMRLo5dfhuGl8I=
+			XXGNtBdd0/joR4bcEdn/WSczVlO4Fn9WLmQ2/IUJlhc=
 			</data>
 		</dict>
 		<key>ESimPackagesTableViewCell.nib</key>
@@ -542,7 +542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			recxUzrJDN+0peLoi5wPsifllhRAd1oDDxiIj98PZPw=
+			L8kK68mcf8AwIEQsTKTdwMB678bhkyXzen1XRLJwD+g=
 			</data>
 		</dict>
 		<key>Headers/ESimKit-Swift.h</key>
@@ -563,7 +563,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+a7LsAaW/Ltbm5QpPEwlwF2bXS6sISSznkqOKCFEjvA=
+			1N+4Rj1d2/KfTB9o59GQbti/ztNoy5kJuJ+Rx/oPSuk=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -591,14 +591,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lQZwMK3JPDL9QinsL18QPgYXqlAZ4wfhWMd6uN6UOgs=
+			5jQBJRXQaYt8F/66c3Lz8ct6kbzu/bs3X7tv+Jn8IuU=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+a7LsAaW/Ltbm5QpPEwlwF2bXS6sISSznkqOKCFEjvA=
+			1N+4Rj1d2/KfTB9o59GQbti/ztNoy5kJuJ+Rx/oPSuk=
 			</data>
 		</dict>
 		<key>Modules/ESimKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -626,7 +626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JnoFFVgbxtYVZsoRVY43R/FD1VVfMtQVPYQ0iXS2ww=
+			LfsKdCuRwvY0+1fDC0pliPyA0LNuTOLTZLQHN4YFCBM=
 			</data>
 		</dict>
 		<key>Montserrat-Bold.ttf</key>
@@ -668,7 +668,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PgIYJX17EzrmELNMjydTMn2V6nTWNhSS1YuB0sFNKZY=
+			0zdowLnzNiACVuv1DpvsfNINF1JGU1wkcH8ub//asKk=
 			</data>
 		</dict>
 		<key>NewEsimRegionCollectionCell.nib</key>
