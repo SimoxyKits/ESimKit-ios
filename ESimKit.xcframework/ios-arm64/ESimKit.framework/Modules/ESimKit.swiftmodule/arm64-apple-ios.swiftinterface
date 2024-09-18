@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ESimKit
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ESimKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Alamofire
 import CryptoSwift
 import DateToolsSwift
@@ -74,10 +75,10 @@ public struct ESimKitPNGImage : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SPIndicatorIconErrorView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
-  @_Concurrency.MainActor(unsafe) public func animate()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SPIndicatorIconErrorView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
+  @_Concurrency.MainActor @preconcurrency public func animate()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public protocol SPIndicatorIconAnimatable {
@@ -158,12 +159,12 @@ public enum SPIndicator {
 }
 @available(iOS 13.0, *)
 @available(iOSApplicationExtension, unavailable)
-extension SwiftUI.View {
-  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, indicatorView: ESimKit.SPIndicatorView, duration: Foundation.TimeInterval = 2.0, haptic: ESimKit.SPIndicatorHaptic = .none) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func SPIndicator(isPresent: SwiftUICore.Binding<Swift.Bool>, indicatorView: ESimKit.SPIndicatorView, duration: Foundation.TimeInterval = 2.0, haptic: ESimKit.SPIndicatorHaptic = .none) -> some SwiftUICore.View
   
-  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, title: Swift.String = "", message: Swift.String? = nil, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, layout: ESimKit.SPIndicatorLayout? = nil, completion: (() -> Swift.Void)? = nil) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func SPIndicator(isPresent: SwiftUICore.Binding<Swift.Bool>, title: Swift.String = "", message: Swift.String? = nil, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, layout: ESimKit.SPIndicatorLayout? = nil, completion: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
   
-  public func SPIndicator(isPresent: SwiftUI.Binding<Swift.Bool>, title: Swift.String, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, completion: (() -> Swift.Void)? = nil) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func SPIndicator(isPresent: SwiftUICore.Binding<Swift.Bool>, title: Swift.String, duration: Foundation.TimeInterval = 2.0, presentSide: ESimKit.SPIndicatorPresentSide = .top, dismissByDrag: Swift.Bool = true, preset: ESimKit.SPIndicatorIconPreset = .done, haptic: ESimKit.SPIndicatorHaptic = .none, completion: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
   
 }
 public struct ESimKitSearchBarConfig : Swift.Codable {
@@ -172,28 +173,28 @@ public struct ESimKitSearchBarConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @objc @available(iOSApplicationExtension, unavailable)
-@_Concurrency.MainActor(unsafe) open class SPIndicatorView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var duration: Swift.Double
-  @_Concurrency.MainActor(unsafe) open var presentSide: ESimKit.SPIndicatorPresentSide
-  @_Concurrency.MainActor(unsafe) open var dismissByDrag: Swift.Bool {
+@_Concurrency.MainActor @preconcurrency open class SPIndicatorView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var duration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency open var presentSide: ESimKit.SPIndicatorPresentSide
+  @_Concurrency.MainActor @preconcurrency open var dismissByDrag: Swift.Bool {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open var completion: (() -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) open var subtitleLabel: UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) open var iconView: UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) weak open var presentWindow: UIKit.UIWindow?
-  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, message: Swift.String? = nil, preset: ESimKit.SPIndicatorIconPreset)
-  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, message: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) open func present(haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) open func present(duration: Foundation.TimeInterval, haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
-  @objc @_Concurrency.MainActor(unsafe) open func dismiss()
-  @_Concurrency.MainActor(unsafe) open var layout: ESimKit.SPIndicatorLayout
-  @_Concurrency.MainActor(unsafe) open var offset: CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency open var completion: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency open var titleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency open var subtitleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency open var iconView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak open var presentWindow: UIKit.UIWindow?
+  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, message: Swift.String? = nil, preset: ESimKit.SPIndicatorIconPreset)
+  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, message: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency open func present(haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency open func present(duration: Foundation.TimeInterval, haptic: ESimKit.SPIndicatorHaptic = .success, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor @preconcurrency open func dismiss()
+  @_Concurrency.MainActor @preconcurrency open var layout: ESimKit.SPIndicatorLayout
+  @_Concurrency.MainActor @preconcurrency open var offset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc deinit
 }
 public enum Theme {
@@ -207,10 +208,10 @@ public enum Theme {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SPIndicatorIconDoneView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
-  @_Concurrency.MainActor(unsafe) public func animate()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SPIndicatorIconDoneView : UIKit.UIView, ESimKit.SPIndicatorIconAnimatable {
+  @_Concurrency.MainActor @preconcurrency public func animate()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public struct ESimKitActivateEsimPageConfig : Swift.Codable {
@@ -229,7 +230,7 @@ public struct ESimKitBenefit : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 public struct ESimKitSentence : Swift.Codable {
   public init(text: Swift.String? = nil, font: ESimKit.ESimKitFont? = nil, color: ESimKit.ESimKitColor? = nil)
