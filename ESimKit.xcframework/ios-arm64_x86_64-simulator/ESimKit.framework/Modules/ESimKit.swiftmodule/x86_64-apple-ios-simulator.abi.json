@@ -111085,6 +111085,28 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KFImageHoldingView",
+            "printedName": "KFImageHoldingView",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RenderingView",
+                "printedName": "RenderingView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Kingfisher18KFImageHoldingViewP",
+            "mangledName": "$s10Kingfisher18KFImageHoldingViewP"
           }
         ]
       }
