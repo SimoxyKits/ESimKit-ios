@@ -40,7 +40,7 @@ Be sure to choose "**Embed & Sign**" for **ESimKit.xcframework**
 
 6. Add those to your Podfile (change *YourAppTargetName*):
 ```
-platform :ios, '13.0'
+platform :ios, '14.3'
 
 target 'YourAppTargetName' do
   use_frameworks!
@@ -50,7 +50,7 @@ target 'YourAppTargetName' do
   pod 'RxCocoa'
   pod 'RxSwift'
   pod 'RxDataSources'
-  pod 'Kingfisher'
+  pod 'Kingfisher', '7.12.0'
   
   pod 'IBAnimatable'
   pod 'KeychainSwift'

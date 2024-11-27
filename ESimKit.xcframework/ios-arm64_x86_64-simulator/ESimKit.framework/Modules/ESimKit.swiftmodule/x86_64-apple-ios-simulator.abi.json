@@ -24764,11 +24764,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
-            "mangledName": "$s7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
+            "usr": "s:7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzs8SendableRzlF",
+            "mangledName": "$s7ESimKit16ResponseHandler2C06handleC0yxSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzs8SendableRzlF",
             "moduleName": "ESimKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
           },
@@ -24838,11 +24838,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
-            "mangledName": "$s7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzlF",
+            "usr": "s:7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzs8SendableRzlF",
+            "mangledName": "$s7ESimKit16ResponseHandler2C010handleNullC0ySbSgxm_9Alamofire04DataC0VyxAF7AFErrorOGS2btSeRzSERzs8SendableRzlF",
             "moduleName": "ESimKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
           },
@@ -114892,7 +114892,7 @@
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
-      "value": "\"2.0\""
+      "value": "\"2.2\""
     },
     {
       "filePath": "\/Users\/jesus\/Desktop\/ios_projects\/Simoxy eSIM SDK\/ESimKit\/ESimKit\/Controllers\/Main\/ESim\/ESimKitManager.swift",
